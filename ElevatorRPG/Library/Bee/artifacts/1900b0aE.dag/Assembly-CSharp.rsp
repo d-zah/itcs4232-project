@@ -376,6 +376,7 @@
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SceneTransition.cs"
+"Assets/Scripts/ScriptableObjects/VectorValue.cs"
 -langversion:9.0
 
 /deterministic

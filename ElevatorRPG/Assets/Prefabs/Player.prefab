@@ -107,6 +107,8 @@ MonoBehaviour:
   isWalkingLeft: 0
   isWalkingUp: 0
   isWalkingDown: 0
+  startPosition: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
+  wipePanel: {fileID: 5459364581112062958, guid: a1eac4732a0193e44977f63e00eefaf0, type: 3}
   rb: {fileID: 920784651102994077}
   isFacingRight: 1
   anim: {fileID: 0}

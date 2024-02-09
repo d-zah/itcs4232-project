@@ -19,12 +19,26 @@ public class PlayerController : MonoBehaviour
     public bool isWalkingUp;
     public bool isWalkingDown;
 
+    public VectorValue startPosition;
+    public GameObject wipePanel;
+
 
     [Header("Components")]
     [SerializeField] private Rigidbody2D rb;
     public bool isFacingRight = true;
     [SerializeField] private Animator anim;
 
+    public void Awake() {
+        if(wipePanel != null) {
+            GameObject panel = Instantiate(wipePanel, Vector3.zero, Quaternion.identity) as GameObject;
+            Destroy(panel, 1);
+            
+        }
+    }
+
+    void Start() {
+        transform.position = startPosition.initialValue;
+    }
 
     void Update()
     {
