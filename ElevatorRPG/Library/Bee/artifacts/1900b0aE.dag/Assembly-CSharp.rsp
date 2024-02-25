@@ -374,6 +374,7 @@
 -analyzer:"D:/Utilities/Unity 2022.3.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Utilities/Unity 2022.3.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/ButtonActivation.cs"
+"Assets/Scripts/ButtonInsidePanelScript.cs"
 "Assets/Scripts/ButtonPanelScript.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/DisableButton.cs"

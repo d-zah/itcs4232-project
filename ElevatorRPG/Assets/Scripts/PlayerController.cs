@@ -81,20 +81,23 @@ public class PlayerController : MonoBehaviour
 
     public void PlayerMovement() 
     {
-        float targetVelocityX = inputHorizontal * playerMaxSpeed;
-        float targetVelocityY = inputVertical * playerMaxSpeed;
+        
+            float targetVelocityX = inputHorizontal * playerMaxSpeed;
+            float targetVelocityY = inputVertical * playerMaxSpeed;
 
-        // Apply acceleration/deceleration to movement
-        targetVelocityX = inputHorizontal * playerMaxSpeed;
-        float tx = acceleration * Time.deltaTime;
-        currentVelocityX = Mathf.Lerp(currentVelocityX, targetVelocityX, tx);
-        rb.velocity = new Vector2(currentVelocityX, rb.velocity.y);
+            // Apply acceleration/deceleration to movement
+            targetVelocityX = inputHorizontal * playerMaxSpeed;
+            float tx = acceleration * Time.deltaTime;
+            currentVelocityX = Mathf.Lerp(currentVelocityX, targetVelocityX, tx);
+            rb.velocity = new Vector2(currentVelocityX, rb.velocity.y);
 
-        targetVelocityY = inputVertical * playerMaxSpeed;
-        float ty = acceleration * Time.deltaTime;
-        currentVelocityY = Mathf.Lerp(currentVelocityY, targetVelocityY, ty);
-        rb.velocity = new Vector2(rb.velocity.x, currentVelocityY);
-    }
+            targetVelocityY = inputVertical * playerMaxSpeed;
+            float ty = acceleration * Time.deltaTime;
+            currentVelocityY = Mathf.Lerp(currentVelocityY, targetVelocityY, ty);
+            rb.velocity = new Vector2(rb.velocity.x, currentVelocityY);
+        
+            
+        }
 
 
     private void Flip()

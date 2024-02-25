@@ -29,15 +29,18 @@ public class SceneTransition : MonoBehaviour
 
     public void Update() {
             if(lerpActive == false && triggered == true) {
+                //set up lerp
                 startPosition = player.transform.position;
                 endPosition = new Vector3(transform.position.x, transform.position.y + .5f, transform.position.z);
                 
+                //begin panel transition
                 GameObject panel = Instantiate(wipePanel, Vector3.zero, Quaternion.identity) as GameObject;
                 Destroy(panel, 1);
                 lerpActive = true;
             } else if(elapsedTime / duration > .99 && triggered == true) {
                 lerpActive = false;
                 playerStorage.initialValue = playerPosition;
+                //switch to new scene
                 currentScene = SceneManager.GetActiveScene();
                 SceneManager.LoadScene(currentScene.buildIndex - 1);
             } else if(triggered == true) {

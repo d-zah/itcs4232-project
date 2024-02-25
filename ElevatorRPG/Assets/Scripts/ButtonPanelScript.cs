@@ -9,8 +9,9 @@ public class ButtonPanelScript : MonoBehaviour
     public GameObject buttonMenu;
     public int targetSelectionCode;
     public Selectable[] selectablesArray;
+    public VectorValue playerStorage;
     public GameObject wipePanel;
-    public int elevatorABuildIndex;
+    public int elevatorBuildIndex;
 
     private int totalSelections;
     private int selectionCode;
@@ -35,9 +36,9 @@ public class ButtonPanelScript : MonoBehaviour
                 timerActive = true;
             } else if(elapsedTime / duration > .99 && triggered == true) {
                 timerActive = false;
-                // playerStorage.initialValue = playerPosition;
+                playerStorage.initialValue = new Vector2(0f, 0f);
                 //currentScene = SceneManager.GetActiveScene();
-                SceneManager.LoadScene(elevatorABuildIndex);
+                SceneManager.LoadScene(elevatorBuildIndex);
             } else if(triggered == true) {
                 elapsedTime += Time.deltaTime;
                 float percentageComplete = elapsedTime / duration;

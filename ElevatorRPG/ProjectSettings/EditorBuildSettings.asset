@@ -50,4 +50,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ElevatorA.unity
     guid: 90992345b996ab143a7fa8e57efbd87b
+  - enabled: 1
+    path: Assets/Scenes/ElevatorB.unity
+    guid: b7ff419fca1e2e74ebae190898a07b4b
+  - enabled: 1
+    path: Assets/Scenes/ElevatorC.unity
+    guid: f31aade6f3d431640ad3b98e21f0d0d0
+  - enabled: 1
+    path: Assets/Scenes/ElevatorD.unity
+    guid: 9f4a80f23bc447d4c8e5e9ee4b18abf6
+  - enabled: 1
+    path: Assets/Scenes/ElevatorE.unity
+    guid: f9ddf8fa2874d96488fab7b305780d82
   m_configObjects: {}
