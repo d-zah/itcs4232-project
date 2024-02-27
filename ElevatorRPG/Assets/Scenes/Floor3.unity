@@ -1491,6 +1491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edb864e4652835e4ca16b6a8980592d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerController: {fileID: 9096167327739118066}
   buttonMenu: {fileID: 1335606650}
 --- !u!61 &428209755
 BoxCollider2D:
@@ -1838,6 +1839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbe7ccb7277dc594d86eaf35f94dc387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerController: {fileID: 9096167327739118066}
   buttonMenu: {fileID: 563660050}
   targetSelectionCode: 4344
   selectablesArray:
@@ -5833,6 +5835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbe7ccb7277dc594d86eaf35f94dc387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerController: {fileID: 9096167327739118066}
   buttonMenu: {fileID: 1010363848}
   targetSelectionCode: 15
   selectablesArray:
@@ -6847,6 +6850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbe7ccb7277dc594d86eaf35f94dc387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerController: {fileID: 9096167327739118066}
   buttonMenu: {fileID: 1335606650}
   targetSelectionCode: 2340
   selectablesArray:
@@ -7730,6 +7734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edb864e4652835e4ca16b6a8980592d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerController: {fileID: 9096167327739118066}
   buttonMenu: {fileID: 1010363848}
 --- !u!61 &1558033176
 BoxCollider2D:
@@ -11221,6 +11226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edb864e4652835e4ca16b6a8980592d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerController: {fileID: 9096167327739118066}
   buttonMenu: {fileID: 563660050}
 --- !u!61 &1882219430
 BoxCollider2D:
@@ -12886,6 +12892,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85ed918477aa0de4eb09c617a796bc73, type: 3}
+--- !u!114 &9096167327739118066 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3119964319440514652, guid: 85ed918477aa0de4eb09c617a796bc73, type: 3}
+  m_PrefabInstance: {fileID: 9096167327739118065}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e007a5d072fa314eb86b4f2d6a0ce76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

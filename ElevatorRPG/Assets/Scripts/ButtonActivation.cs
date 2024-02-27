@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class ButtonActivation : MonoBehaviour
 {
+    public PlayerController playerController;
     public GameObject buttonMenu;
 
     public void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Player") && !other.isTrigger) {
             buttonMenu.SetActive(true);
-            
+            playerController.playerCanMove(true);
         }
     }
 

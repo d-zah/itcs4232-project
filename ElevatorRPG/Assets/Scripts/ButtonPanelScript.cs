@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonPanelScript : MonoBehaviour
 {
+    public PlayerController playerController;
     public GameObject buttonMenu;
     public int targetSelectionCode;
     public Selectable[] selectablesArray;
@@ -72,6 +73,7 @@ public class ButtonPanelScript : MonoBehaviour
 
     public void goBack(){
         buttonMenu.SetActive(false);
+        playerController.playerCanMove(false);
     }
 
     public void disableButton(Selectable button){

@@ -8,16 +8,20 @@ public class PlayerController : MonoBehaviour
     [Header("Player Movement")]
     [SerializeField] private float playerMaxSpeed;
     [SerializeField] private float acceleration;
+    private float playerMaxSpeedConst;
     private float targetVelocityX;
     private float targetVelocityY;
     private float currentVelocityX;
     private float currentVelocityY;
+    private bool pauseMovement;
+
     public float inputHorizontal;
     public float inputVertical;
     public bool isWalkingRight;
     public bool isWalkingLeft;
     public bool isWalkingUp;
     public bool isWalkingDown;
+    
 
     public VectorValue startPosition;
     public GameObject wipePanel;
@@ -32,16 +36,22 @@ public class PlayerController : MonoBehaviour
         if(wipePanel != null) {
             GameObject panel = Instantiate(wipePanel, Vector3.zero, Quaternion.identity) as GameObject;
             Destroy(panel, 1);
-            
         }
     }
 
     void Start() {
+        pauseMovement = false;
         transform.position = startPosition.initialValue;
+        playerMaxSpeedConst = playerMaxSpeed;
     }
 
     void Update()
     {
+        if(pauseMovement){
+            playerMaxSpeed = 0;
+        } else {
+            playerMaxSpeed = playerMaxSpeedConst;
+        }
 
         
         inputHorizontal = Input.GetAxisRaw("Horizontal");
@@ -109,6 +119,10 @@ public class PlayerController : MonoBehaviour
             localScale.x *= -1f;
             transform.localScale = localScale;
         }
+    }
+
+    public void playerCanMove(bool setting){
+        pauseMovement = setting;
     }
 
 }
