@@ -13,9 +13,13 @@ public class DialogueManager : MonoBehaviour
     private static DialogueManager instance;
     private Animator anim;
     private Coroutine typing;
+    private PlayerController playerController;
 
     //make certain this is the only DialogueManager
     private void Awake(){
+
+        playerController = GameObject.Find("Player").GetComponent<PlayerController>();
+
         if(instance == null){
             instance = this;
             anim = GetComponent<Animator>();
@@ -39,6 +43,7 @@ public class DialogueManager : MonoBehaviour
     public void ReadNext(){
         if(currentIndex > currentConvo.GetLength()){
             instance.anim.SetBool("isOpen", false);
+            playerController.playerCanMove(false);
             return;
         }
 
