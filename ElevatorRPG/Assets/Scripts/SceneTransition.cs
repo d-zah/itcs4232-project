@@ -9,7 +9,7 @@ public class SceneTransition : MonoBehaviour
     public Vector2 playerPosition;
     public VectorValue playerStorage;
     private GameObject player;
-    public GameObject wipePanel;
+    [SerializeField] public Animator anim;
     
 
     //lerp
@@ -34,8 +34,7 @@ public class SceneTransition : MonoBehaviour
                 endPosition = new Vector3(transform.position.x, transform.position.y + .5f, transform.position.z);
                 
                 //begin panel transition
-                GameObject panel = Instantiate(wipePanel, Vector3.zero, Quaternion.identity) as GameObject;
-                Destroy(panel, 1);
+                anim.SetBool("isSceneActive", false);
                 lerpActive = true;
             } else if(elapsedTime / duration > .99 && triggered == true) {
                 lerpActive = false;

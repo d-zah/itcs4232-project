@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     private float currentVelocityX;
     private float currentVelocityY;
     private bool pauseMovement;
+    [SerializeField] private Animator anim;
 
     public float inputHorizontal;
     public float inputVertical;
@@ -24,19 +25,15 @@ public class PlayerController : MonoBehaviour
     
 
     public VectorValue startPosition;
-    public GameObject wipePanel;
 
 
     [Header("Components")]
     [SerializeField] private Rigidbody2D rb;
     public bool isFacingRight = true;
-    [SerializeField] private Animator anim;
+    //[SerializeField] private Animator anim;
 
     public void Awake() {
-        if(wipePanel != null) {
-            GameObject panel = Instantiate(wipePanel, Vector3.zero, Quaternion.identity) as GameObject;
-            Destroy(panel, 1);
-        }
+        anim.SetBool("isSceneActive", true);
     }
 
     void Start() {

@@ -11,7 +11,7 @@ public class ButtonPanelScript : MonoBehaviour
     public int targetSelectionCode;
     public Selectable[] selectablesArray;
     public VectorValue playerStorage;
-    public GameObject wipePanel;
+    public Animator anim;
     public int elevatorBuildIndex;
 
     private int totalSelections;
@@ -32,8 +32,7 @@ public class ButtonPanelScript : MonoBehaviour
     void Update(){
         //timer
             if(timerActive == false && triggered == true) {
-                GameObject panel = Instantiate(wipePanel, Vector3.zero, Quaternion.identity) as GameObject;
-                Destroy(panel, 2);
+                anim.SetBool("isSceneActive", false);
                 timerActive = true;
             } else if(elapsedTime / duration > .99 && triggered == true) {
                 timerActive = false;

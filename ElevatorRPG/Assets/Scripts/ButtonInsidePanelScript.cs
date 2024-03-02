@@ -9,11 +9,11 @@ public class ButtonInsidePanelScript : MonoBehaviour
     public PlayerController playerController;
     public GameObject buttonMenu;
     public Selectable[] selectablesArray;
-    public GameObject wipePanel;
     public int destinationBuildIndex;
     public Vector2 playerPosition;
     public VectorValue playerStorage;
     private GameObject player;
+    [SerializeField] private Animator anim;
 
     private bool triggered;
     private bool timerActive;
@@ -35,8 +35,7 @@ public class ButtonInsidePanelScript : MonoBehaviour
     void Update(){
         //timer
             if(timerActive == false && triggered == true) {
-                GameObject panel = Instantiate(wipePanel, Vector3.zero, Quaternion.identity) as GameObject;
-                Destroy(panel, 2);
+                anim.SetBool("isSceneActive", false);
                 timerActive = true;
             } else if(elapsedTime / duration > .99 && triggered == true) {
                 timerActive = false;
