@@ -78,7 +78,7 @@ public class PlayerController : MonoBehaviour
             isWalkingDown = inputVertical < 0.0f;
         }
 
-        Flip();
+        //Flip();
     }
 
     void FixedUpdate()
