@@ -15,13 +15,10 @@ public class PlayerController : MonoBehaviour
     private float currentVelocityY;
     private bool pauseMovement;
     [SerializeField] private Animator anim;
+    private Animator animator;
 
     public float inputHorizontal;
     public float inputVertical;
-    public bool isWalkingRight;
-    public bool isWalkingLeft;
-    public bool isWalkingUp;
-    public bool isWalkingDown;
     
 
     public VectorValue startPosition;
@@ -39,6 +36,7 @@ public class PlayerController : MonoBehaviour
     void Start() {
         pauseMovement = false;
         transform.position = startPosition.initialValue;
+        animator = GetComponent<Animator>();
         playerMaxSpeedConst = playerMaxSpeed;
     }
 
@@ -54,31 +52,14 @@ public class PlayerController : MonoBehaviour
         inputHorizontal = Input.GetAxisRaw("Horizontal");
         inputVertical = Input.GetAxisRaw("Vertical");
 
-        if ((Mathf.Abs(inputHorizontal) == 0.0f && Mathf.Abs(inputVertical) == 0.0f))
+        if (!(Mathf.Abs(inputHorizontal) == 0.0f && Mathf.Abs(inputVertical) == 0.0f))
         {
-            isWalkingRight = false;
-            isWalkingLeft = false;
-            isWalkingUp = false;
-            isWalkingDown = false;
+            animator.SetFloat("moveX", inputHorizontal);
+            animator.SetFloat("moveY", inputVertical);
+            animator.SetBool("moving", true);
+        } else {
+            animator.SetBool("moving", false);
         }
-        else if (inputHorizontal > 0.0f)
-        {
-            isWalkingRight = inputHorizontal > 0.0f;
-        }
-        else if (inputHorizontal < 0.0f)
-        {
-            isWalkingLeft = inputHorizontal < 0.0f;
-        }
-        else if (inputVertical > 0.0f)
-        {
-            isWalkingUp = inputVertical > 0.0f;
-        }
-        else if (inputVertical < 0.0f)
-        {
-            isWalkingDown = inputVertical < 0.0f;
-        }
-
-        //Flip();
     }
 
     void FixedUpdate()
@@ -105,18 +86,6 @@ public class PlayerController : MonoBehaviour
         
             
         }
-
-
-    private void Flip()
-    {
-        if((isFacingRight && inputHorizontal < 0f) || (!isFacingRight && inputHorizontal > 0f))
-        {
-            isFacingRight = !isFacingRight;
-            Vector3 localScale = transform.localScale;
-            localScale.x *= -1f;
-            transform.localScale = localScale;
-        }
-    }
 
     public void playerCanMove(bool setting){
         pauseMovement = setting;
