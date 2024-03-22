@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 920784651102994077}
   - component: {fileID: 3611221259465993547}
   - component: {fileID: 1775887513160854696}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -105,10 +105,6 @@ MonoBehaviour:
   anim: {fileID: 0}
   inputHorizontal: 0
   inputVertical: 0
-  isWalkingRight: 0
-  isWalkingLeft: 0
-  isWalkingUp: 0
-  isWalkingDown: 0
   startPosition: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   rb: {fileID: 920784651102994077}
   isFacingRight: 1
@@ -171,8 +167,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.64, y: 1}
+  m_Offset: {x: 0, y: -0.025}
+  m_Size: {x: 0.64, y: 0.95}
   m_Direction: 0
 --- !u!95 &1775887513160854696
 Animator:

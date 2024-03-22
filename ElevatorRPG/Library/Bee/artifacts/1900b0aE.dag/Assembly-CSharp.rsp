@@ -384,6 +384,8 @@
 "Assets/Scripts/ButtonPanelScript.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/DisableButton.cs"
+"Assets/Scripts/EmitterMovement.cs"
+"Assets/Scripts/Laser.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SceneTransition.cs"
 "Assets/Scripts/ScriptableObjects/VectorValue.cs"
