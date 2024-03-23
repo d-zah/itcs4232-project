@@ -894,7 +894,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -13221,6 +13221,7 @@ GameObject:
   - component: {fileID: 2082852373}
   - component: {fileID: 2082852372}
   - component: {fileID: 2082852371}
+  - component: {fileID: 2082852375}
   m_Layer: 0
   m_Name: Trapdoor_1
   m_TagString: Untagged
@@ -13357,6 +13358,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2082852375
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082852370}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2084067722
 GameObject:
   m_ObjectHideFlags: 0
@@ -14290,7 +14312,6 @@ SceneRoots:
   - {fileID: 9096167327739118065}
   - {fileID: 515943448}
   - {fileID: 148940137}
-  - {fileID: 2082852374}
   - {fileID: 1948071384}
   - {fileID: 1995852677}
   - {fileID: 263573187}
@@ -14298,4 +14319,5 @@ SceneRoots:
   - {fileID: 848324973}
   - {fileID: 1030950731}
   - {fileID: 1377770616}
+  - {fileID: 2082852374}
   - {fileID: 266106219}

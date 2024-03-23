@@ -19,18 +19,25 @@ public class Laser : MonoBehaviour
     private float elapsedTime;
     private bool lerpActive;
     private bool triggered;
+    public bool facingLeft;
 
     // Update is called once per frame
     void Update()
     {
-        
+        Vector2 direction;
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.left, 50f, layersToHit);
+        if(facingLeft == true){
+            direction = Vector2.left;
+        } else {
+            direction = Vector2.right;
+        }
+
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 50f, layersToHit);
         if(hit.collider == null){
             transform.localScale = new Vector3(50f, .5f, 1);
             return;
         }
-        transform.localScale = new Vector3(hit.distance + .25f, .5f, 1);
+        transform.localScale = new Vector3(hit.distance + 0.25f, .5f, 1);
         //Debug.Log(hit.collider.gameObject.name);
         if(hit.collider.tag == "Player"){
             //kill player n reset round
