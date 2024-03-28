@@ -42,6 +42,7 @@ public class Laser : MonoBehaviour
         if(hit.collider.tag == "Player"){
             //kill player n reset round
             playerController.playerCanMove(true);
+            playerController.makePlayerFall();
             triggered = true;
         } 
         if(triggered == true){

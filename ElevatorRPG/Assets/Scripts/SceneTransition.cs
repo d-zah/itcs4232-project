@@ -10,6 +10,8 @@ public class SceneTransition : MonoBehaviour
     public VectorValue playerStorage;
     private GameObject player;
     [SerializeField] public Animator anim;
+    public PlayerController playerController;
+    private Animator trapdoorAnim;
     
 
     //lerp
@@ -22,6 +24,7 @@ public class SceneTransition : MonoBehaviour
     
 
     public void Start() {
+        trapdoorAnim = GetComponent<Animator>();
         playerPosition = new Vector2(transform.position.x, transform.position.y);
         lerpActive = false;
         triggered = false;
@@ -35,6 +38,8 @@ public class SceneTransition : MonoBehaviour
                 
                 //begin panel transition
                 anim.SetBool("isSceneActive", false);
+                trapdoorAnim.SetBool("trapdoorOpen", true);
+                playerController.makePlayerFall();
                 lerpActive = true;
             } else if(elapsedTime / duration > .99 && triggered == true) {
                 lerpActive = false;

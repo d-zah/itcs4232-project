@@ -26,8 +26,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Components")]
     [SerializeField] private Rigidbody2D rb;
-    public bool isFacingRight = true;
-    //[SerializeField] private Animator anim;
+
 
     public void Awake() {
         anim.SetBool("isSceneActive", true);
@@ -89,6 +88,10 @@ public class PlayerController : MonoBehaviour
 
     public void playerCanMove(bool setting){
         pauseMovement = setting;
+    }
+
+    public void makePlayerFall(){
+        animator.SetBool("falling", true);
     }
 
 }

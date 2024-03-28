@@ -279,6 +279,7 @@ GameObject:
   - component: {fileID: 7780406}
   - component: {fileID: 7780405}
   - component: {fileID: 7780404}
+  - component: {fileID: 7780408}
   m_Layer: 0
   m_Name: Trapdoor_64
   m_TagString: Untagged
@@ -303,6 +304,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &7780405
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -415,6 +417,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &7780408
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7780403}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &32874521
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +548,7 @@ GameObject:
   - component: {fileID: 77869352}
   - component: {fileID: 77869351}
   - component: {fileID: 77869350}
+  - component: {fileID: 77869354}
   m_Layer: 0
   m_Name: Trapdoor_46
   m_TagString: Untagged
@@ -549,6 +573,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &77869351
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -661,6 +686,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &77869354
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77869349}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &88443566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,6 +1082,7 @@ GameObject:
   - component: {fileID: 125467177}
   - component: {fileID: 125467176}
   - component: {fileID: 125467175}
+  - component: {fileID: 125467179}
   m_Layer: 0
   m_Name: Trapdoor_36
   m_TagString: Untagged
@@ -1060,6 +1107,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &125467176
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1172,6 +1220,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &125467179
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125467174}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &126036070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,6 +1253,7 @@ GameObject:
   - component: {fileID: 126036073}
   - component: {fileID: 126036072}
   - component: {fileID: 126036071}
+  - component: {fileID: 126036075}
   m_Layer: 0
   m_Name: Trapdoor_29
   m_TagString: Untagged
@@ -1208,6 +1278,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &126036072
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1320,6 +1391,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &126036075
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126036070}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &127137367
 GameObject:
   m_ObjectHideFlags: 0
@@ -2041,6 +2133,7 @@ GameObject:
   - component: {fileID: 257010605}
   - component: {fileID: 257010604}
   - component: {fileID: 257010603}
+  - component: {fileID: 257010607}
   m_Layer: 0
   m_Name: Trapdoor_33
   m_TagString: Untagged
@@ -2065,6 +2158,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &257010604
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2177,6 +2271,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &257010607
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257010602}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &257192289
 GameObject:
   m_ObjectHideFlags: 0
@@ -2333,6 +2448,7 @@ GameObject:
   - component: {fileID: 263355525}
   - component: {fileID: 263355524}
   - component: {fileID: 263355523}
+  - component: {fileID: 263355527}
   m_Layer: 0
   m_Name: Trapdoor_56
   m_TagString: Untagged
@@ -2357,6 +2473,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &263355524
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2469,6 +2586,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &263355527
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263355522}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &273886453
 GameObject:
   m_ObjectHideFlags: 0
@@ -2481,6 +2619,7 @@ GameObject:
   - component: {fileID: 273886456}
   - component: {fileID: 273886455}
   - component: {fileID: 273886454}
+  - component: {fileID: 273886458}
   m_Layer: 0
   m_Name: Trapdoor_45
   m_TagString: Untagged
@@ -2505,6 +2644,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &273886455
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2617,6 +2757,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &273886458
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273886453}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &327686239
 GameObject:
   m_ObjectHideFlags: 0
@@ -2629,6 +2790,7 @@ GameObject:
   - component: {fileID: 327686242}
   - component: {fileID: 327686241}
   - component: {fileID: 327686240}
+  - component: {fileID: 327686244}
   m_Layer: 0
   m_Name: Trapdoor_67
   m_TagString: Untagged
@@ -2653,6 +2815,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &327686241
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2765,6 +2928,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &327686244
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327686239}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &339448321
 GameObject:
   m_ObjectHideFlags: 0
@@ -2777,6 +2961,7 @@ GameObject:
   - component: {fileID: 339448324}
   - component: {fileID: 339448323}
   - component: {fileID: 339448322}
+  - component: {fileID: 339448326}
   m_Layer: 0
   m_Name: Trapdoor_44
   m_TagString: Untagged
@@ -2801,6 +2986,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &339448323
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2913,6 +3099,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &339448326
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339448321}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &342543388
 GameObject:
   m_ObjectHideFlags: 0
@@ -2925,6 +3132,7 @@ GameObject:
   - component: {fileID: 342543391}
   - component: {fileID: 342543390}
   - component: {fileID: 342543389}
+  - component: {fileID: 342543393}
   m_Layer: 0
   m_Name: Trapdoor_47
   m_TagString: Untagged
@@ -2949,6 +3157,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &342543390
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3061,6 +3270,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &342543393
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342543388}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &369650781
 GameObject:
   m_ObjectHideFlags: 0
@@ -3165,6 +3395,7 @@ GameObject:
   - component: {fileID: 391750598}
   - component: {fileID: 391750597}
   - component: {fileID: 391750596}
+  - component: {fileID: 391750600}
   m_Layer: 0
   m_Name: Trapdoor_55
   m_TagString: Untagged
@@ -3189,6 +3420,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &391750597
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3301,6 +3533,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &391750600
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391750595}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &445058711
 GameObject:
   m_ObjectHideFlags: 0
@@ -3313,6 +3566,7 @@ GameObject:
   - component: {fileID: 445058714}
   - component: {fileID: 445058713}
   - component: {fileID: 445058712}
+  - component: {fileID: 445058716}
   m_Layer: 0
   m_Name: Trapdoor_27
   m_TagString: Untagged
@@ -3337,6 +3591,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &445058713
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3449,6 +3704,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &445058716
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445058711}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &472020351
 GameObject:
   m_ObjectHideFlags: 0
@@ -3605,6 +3881,7 @@ GameObject:
   - component: {fileID: 486623314}
   - component: {fileID: 486623313}
   - component: {fileID: 486623312}
+  - component: {fileID: 486623316}
   m_Layer: 0
   m_Name: Trapdoor_37
   m_TagString: Untagged
@@ -3629,6 +3906,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &486623313
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3741,6 +4019,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &486623316
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486623311}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &512387687
 GameObject:
   m_ObjectHideFlags: 0
@@ -3753,6 +4052,7 @@ GameObject:
   - component: {fileID: 512387690}
   - component: {fileID: 512387689}
   - component: {fileID: 512387688}
+  - component: {fileID: 512387692}
   m_Layer: 0
   m_Name: Trapdoor_54
   m_TagString: Untagged
@@ -3777,6 +4077,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &512387689
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3889,6 +4190,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &512387692
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512387687}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &515754046
 GameObject:
   m_ObjectHideFlags: 0
@@ -3901,6 +4223,7 @@ GameObject:
   - component: {fileID: 515754049}
   - component: {fileID: 515754048}
   - component: {fileID: 515754047}
+  - component: {fileID: 515754051}
   m_Layer: 0
   m_Name: Trapdoor_18
   m_TagString: Untagged
@@ -3925,6 +4248,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &515754048
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4037,6 +4361,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &515754051
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515754046}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &515943446
 GameObject:
   m_ObjectHideFlags: 0
@@ -4099,6 +4444,7 @@ GameObject:
   - component: {fileID: 538315032}
   - component: {fileID: 538315031}
   - component: {fileID: 538315030}
+  - component: {fileID: 538315034}
   m_Layer: 0
   m_Name: Trapdoor_50
   m_TagString: Untagged
@@ -4123,6 +4469,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &538315031
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4235,6 +4582,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &538315034
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538315029}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &541738607
 GameObject:
   m_ObjectHideFlags: 0
@@ -4315,6 +4683,7 @@ GameObject:
   - component: {fileID: 555138733}
   - component: {fileID: 555138732}
   - component: {fileID: 555138731}
+  - component: {fileID: 555138735}
   m_Layer: 0
   m_Name: Trapdoor_49
   m_TagString: Untagged
@@ -4339,6 +4708,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &555138732
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4451,6 +4821,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &555138735
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555138730}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &605713804
 GameObject:
   m_ObjectHideFlags: 0
@@ -4607,6 +4998,7 @@ GameObject:
   - component: {fileID: 616124228}
   - component: {fileID: 616124227}
   - component: {fileID: 616124226}
+  - component: {fileID: 616124230}
   m_Layer: 0
   m_Name: Trapdoor_23
   m_TagString: Untagged
@@ -4631,6 +5023,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &616124227
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4743,6 +5136,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &616124230
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616124225}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &666610921
 GameObject:
   m_ObjectHideFlags: 0
@@ -4755,6 +5169,7 @@ GameObject:
   - component: {fileID: 666610924}
   - component: {fileID: 666610923}
   - component: {fileID: 666610922}
+  - component: {fileID: 666610926}
   m_Layer: 0
   m_Name: Trapdoor_20
   m_TagString: Untagged
@@ -4779,6 +5194,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &666610923
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4891,6 +5307,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &666610926
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666610921}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &735398543
 GameObject:
   m_ObjectHideFlags: 0
@@ -4903,6 +5340,7 @@ GameObject:
   - component: {fileID: 735398546}
   - component: {fileID: 735398545}
   - component: {fileID: 735398544}
+  - component: {fileID: 735398548}
   m_Layer: 0
   m_Name: Trapdoor_53
   m_TagString: Untagged
@@ -4927,6 +5365,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &735398545
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5039,6 +5478,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &735398548
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735398543}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &751240836
 GameObject:
   m_ObjectHideFlags: 0
@@ -5195,6 +5655,7 @@ GameObject:
   - component: {fileID: 777909396}
   - component: {fileID: 777909395}
   - component: {fileID: 777909394}
+  - component: {fileID: 777909398}
   m_Layer: 0
   m_Name: Trapdoor_28
   m_TagString: Untagged
@@ -5219,6 +5680,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &777909395
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5331,6 +5793,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &777909398
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777909393}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &785707470
 GameObject:
   m_ObjectHideFlags: 0
@@ -5343,6 +5826,7 @@ GameObject:
   - component: {fileID: 785707473}
   - component: {fileID: 785707472}
   - component: {fileID: 785707471}
+  - component: {fileID: 785707475}
   m_Layer: 0
   m_Name: Trapdoor_58
   m_TagString: Untagged
@@ -5367,6 +5851,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &785707472
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5479,6 +5964,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &785707475
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785707470}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &788225382
 GameObject:
   m_ObjectHideFlags: 0
@@ -5491,6 +5997,7 @@ GameObject:
   - component: {fileID: 788225385}
   - component: {fileID: 788225384}
   - component: {fileID: 788225383}
+  - component: {fileID: 788225387}
   m_Layer: 0
   m_Name: Trapdoor_24
   m_TagString: Untagged
@@ -5515,6 +6022,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &788225384
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5627,6 +6135,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &788225387
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788225382}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &804973597
 GameObject:
   m_ObjectHideFlags: 0
@@ -5783,6 +6312,7 @@ GameObject:
   - component: {fileID: 818200085}
   - component: {fileID: 818200084}
   - component: {fileID: 818200083}
+  - component: {fileID: 818200087}
   m_Layer: 0
   m_Name: Trapdoor_11
   m_TagString: Untagged
@@ -5807,6 +6337,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &818200084
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5919,6 +6450,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &818200087
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818200082}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &833612508
 GameObject:
   m_ObjectHideFlags: 0
@@ -6164,6 +6716,7 @@ GameObject:
   - component: {fileID: 841287820}
   - component: {fileID: 841287819}
   - component: {fileID: 841287818}
+  - component: {fileID: 841287822}
   m_Layer: 0
   m_Name: Trapdoor_40
   m_TagString: Untagged
@@ -6188,6 +6741,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &841287819
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6300,6 +6854,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &841287822
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841287817}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &861991388
 GameObject:
   m_ObjectHideFlags: 0
@@ -6312,6 +6887,7 @@ GameObject:
   - component: {fileID: 861991391}
   - component: {fileID: 861991390}
   - component: {fileID: 861991389}
+  - component: {fileID: 861991393}
   m_Layer: 0
   m_Name: Trapdoor_31
   m_TagString: Untagged
@@ -6336,6 +6912,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &861991390
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6448,6 +7025,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &861991393
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861991388}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &891067875
 GameObject:
   m_ObjectHideFlags: 0
@@ -6604,6 +7202,7 @@ GameObject:
   - component: {fileID: 905929171}
   - component: {fileID: 905929170}
   - component: {fileID: 905929169}
+  - component: {fileID: 905929173}
   m_Layer: 0
   m_Name: Trapdoor_16
   m_TagString: Untagged
@@ -6628,6 +7227,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &905929170
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6740,6 +7340,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &905929173
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905929168}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &933197083
 GameObject:
   m_ObjectHideFlags: 0
@@ -6752,6 +7373,7 @@ GameObject:
   - component: {fileID: 933197086}
   - component: {fileID: 933197085}
   - component: {fileID: 933197084}
+  - component: {fileID: 933197088}
   m_Layer: 0
   m_Name: Trapdoor_52
   m_TagString: Untagged
@@ -6776,6 +7398,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &933197085
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6888,6 +7511,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &933197088
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933197083}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &936648322
 GameObject:
   m_ObjectHideFlags: 0
@@ -6900,6 +7544,7 @@ GameObject:
   - component: {fileID: 936648325}
   - component: {fileID: 936648324}
   - component: {fileID: 936648323}
+  - component: {fileID: 936648327}
   m_Layer: 0
   m_Name: Trapdoor_69
   m_TagString: Untagged
@@ -6924,6 +7569,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &936648324
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7036,6 +7682,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &936648327
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936648322}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &947507295
 GameObject:
   m_ObjectHideFlags: 0
@@ -8047,6 +8714,7 @@ GameObject:
   - component: {fileID: 950017885}
   - component: {fileID: 950017884}
   - component: {fileID: 950017883}
+  - component: {fileID: 950017887}
   m_Layer: 0
   m_Name: Trapdoor_13
   m_TagString: Untagged
@@ -8071,6 +8739,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &950017884
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8183,6 +8852,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &950017887
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950017882}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &992070000
 GameObject:
   m_ObjectHideFlags: 0
@@ -8195,6 +8885,7 @@ GameObject:
   - component: {fileID: 992070003}
   - component: {fileID: 992070002}
   - component: {fileID: 992070001}
+  - component: {fileID: 992070005}
   m_Layer: 0
   m_Name: Trapdoor_57
   m_TagString: Untagged
@@ -8219,6 +8910,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &992070002
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8331,6 +9023,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &992070005
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992070000}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &998730747
 GameObject:
   m_ObjectHideFlags: 0
@@ -8418,6 +9131,7 @@ GameObject:
   - component: {fileID: 1016760213}
   - component: {fileID: 1016760212}
   - component: {fileID: 1016760211}
+  - component: {fileID: 1016760215}
   m_Layer: 0
   m_Name: Trapdoor_35
   m_TagString: Untagged
@@ -8442,6 +9156,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1016760212
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8554,6 +9269,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1016760215
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016760210}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1021157084
 GameObject:
   m_ObjectHideFlags: 0
@@ -8854,6 +9590,7 @@ GameObject:
   - component: {fileID: 1040031782}
   - component: {fileID: 1040031781}
   - component: {fileID: 1040031780}
+  - component: {fileID: 1040031784}
   m_Layer: 0
   m_Name: Trapdoor_14
   m_TagString: Untagged
@@ -8878,6 +9615,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1040031781
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8990,6 +9728,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1040031784
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040031779}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1087431373
 GameObject:
   m_ObjectHideFlags: 0
@@ -9062,7 +9821,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 792990263, guid: afa4ef75b36e63849b6f77edd05e232f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9230,6 +9989,7 @@ GameObject:
   - component: {fileID: 1140408947}
   - component: {fileID: 1140408946}
   - component: {fileID: 1140408945}
+  - component: {fileID: 1140408949}
   m_Layer: 0
   m_Name: Trapdoor_7
   m_TagString: Untagged
@@ -9254,6 +10014,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1140408946
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9366,6 +10127,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1140408949
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140408944}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1142042205
 GameObject:
   m_ObjectHideFlags: 0
@@ -9522,6 +10304,7 @@ GameObject:
   - component: {fileID: 1149413108}
   - component: {fileID: 1149413107}
   - component: {fileID: 1149413106}
+  - component: {fileID: 1149413110}
   m_Layer: 0
   m_Name: Trapdoor_21
   m_TagString: Untagged
@@ -9546,6 +10329,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1149413107
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9658,6 +10442,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1149413110
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149413105}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1186422776
 GameObject:
   m_ObjectHideFlags: 0
@@ -9992,6 +10797,7 @@ GameObject:
   - component: {fileID: 1213172998}
   - component: {fileID: 1213172997}
   - component: {fileID: 1213172996}
+  - component: {fileID: 1213173000}
   m_Layer: 0
   m_Name: Trapdoor_60
   m_TagString: Untagged
@@ -10016,6 +10822,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1213172997
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10128,6 +10935,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1213173000
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213172995}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1217167306
 GameObject:
   m_ObjectHideFlags: 0
@@ -10272,6 +11100,7 @@ GameObject:
   - component: {fileID: 1226193947}
   - component: {fileID: 1226193946}
   - component: {fileID: 1226193945}
+  - component: {fileID: 1226193949}
   m_Layer: 0
   m_Name: Trapdoor_19
   m_TagString: Untagged
@@ -10296,6 +11125,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1226193946
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10408,6 +11238,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1226193949
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226193944}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1291845789
 GameObject:
   m_ObjectHideFlags: 0
@@ -10564,6 +11415,7 @@ GameObject:
   - component: {fileID: 1299283342}
   - component: {fileID: 1299283341}
   - component: {fileID: 1299283340}
+  - component: {fileID: 1299283344}
   m_Layer: 0
   m_Name: Trapdoor_15
   m_TagString: Untagged
@@ -10588,6 +11440,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1299283341
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10700,6 +11553,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1299283344
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299283339}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1303525235
 GameObject:
   m_ObjectHideFlags: 0
@@ -10712,6 +11586,7 @@ GameObject:
   - component: {fileID: 1303525238}
   - component: {fileID: 1303525237}
   - component: {fileID: 1303525236}
+  - component: {fileID: 1303525240}
   m_Layer: 0
   m_Name: Trapdoor_70
   m_TagString: Untagged
@@ -10736,6 +11611,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1303525237
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10848,6 +11724,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1303525240
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303525235}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1331249206
 GameObject:
   m_ObjectHideFlags: 0
@@ -10860,6 +11757,7 @@ GameObject:
   - component: {fileID: 1331249209}
   - component: {fileID: 1331249208}
   - component: {fileID: 1331249207}
+  - component: {fileID: 1331249211}
   m_Layer: 0
   m_Name: Trapdoor_17
   m_TagString: Untagged
@@ -10884,6 +11782,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1331249208
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10996,6 +11895,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1331249211
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331249206}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1331543282
 GameObject:
   m_ObjectHideFlags: 0
@@ -11008,6 +11928,7 @@ GameObject:
   - component: {fileID: 1331543285}
   - component: {fileID: 1331543284}
   - component: {fileID: 1331543283}
+  - component: {fileID: 1331543287}
   m_Layer: 0
   m_Name: Trapdoor_66
   m_TagString: Untagged
@@ -11032,6 +11953,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1331543284
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11144,6 +12066,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1331543287
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331543282}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1350645932
 GameObject:
   m_ObjectHideFlags: 0
@@ -11468,6 +12411,7 @@ GameObject:
   - component: {fileID: 1399788165}
   - component: {fileID: 1399788164}
   - component: {fileID: 1399788163}
+  - component: {fileID: 1399788167}
   m_Layer: 0
   m_Name: Trapdoor_63
   m_TagString: Untagged
@@ -11492,6 +12436,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1399788164
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11604,6 +12549,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1399788167
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399788162}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1420931668
 GameObject:
   m_ObjectHideFlags: 0
@@ -11892,6 +12858,7 @@ GameObject:
   - component: {fileID: 1446920359}
   - component: {fileID: 1446920358}
   - component: {fileID: 1446920357}
+  - component: {fileID: 1446920361}
   m_Layer: 0
   m_Name: Trapdoor_38
   m_TagString: Untagged
@@ -11916,6 +12883,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1446920358
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12028,6 +12996,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1446920361
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446920356}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1448628871
 GameObject:
   m_ObjectHideFlags: 0
@@ -12040,6 +13029,7 @@ GameObject:
   - component: {fileID: 1448628874}
   - component: {fileID: 1448628873}
   - component: {fileID: 1448628872}
+  - component: {fileID: 1448628876}
   m_Layer: 0
   m_Name: Trapdoor_8
   m_TagString: Untagged
@@ -12064,6 +13054,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1448628873
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12176,6 +13167,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1448628876
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448628871}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1450419894
 GameObject:
   m_ObjectHideFlags: 0
@@ -12188,6 +13200,7 @@ GameObject:
   - component: {fileID: 1450419897}
   - component: {fileID: 1450419896}
   - component: {fileID: 1450419895}
+  - component: {fileID: 1450419899}
   m_Layer: 0
   m_Name: Trapdoor_43
   m_TagString: Untagged
@@ -12212,6 +13225,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1450419896
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12324,6 +13338,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1450419899
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450419894}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1467185886
 GameObject:
   m_ObjectHideFlags: 0
@@ -12336,6 +13371,7 @@ GameObject:
   - component: {fileID: 1467185889}
   - component: {fileID: 1467185888}
   - component: {fileID: 1467185887}
+  - component: {fileID: 1467185891}
   m_Layer: 0
   m_Name: Trapdoor_2
   m_TagString: Untagged
@@ -12360,6 +13396,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1467185888
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12472,6 +13509,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1467185891
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467185886}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1485464841
 GameObject:
   m_ObjectHideFlags: 0
@@ -12484,6 +13542,7 @@ GameObject:
   - component: {fileID: 1485464844}
   - component: {fileID: 1485464843}
   - component: {fileID: 1485464842}
+  - component: {fileID: 1485464846}
   m_Layer: 0
   m_Name: Trapdoor_9
   m_TagString: Untagged
@@ -12508,6 +13567,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1485464843
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12620,6 +13680,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1485464846
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485464841}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1491766165
 GameObject:
   m_ObjectHideFlags: 0
@@ -12632,6 +13713,7 @@ GameObject:
   - component: {fileID: 1491766168}
   - component: {fileID: 1491766167}
   - component: {fileID: 1491766166}
+  - component: {fileID: 1491766170}
   m_Layer: 0
   m_Name: Trapdoor_65
   m_TagString: Untagged
@@ -12656,6 +13738,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1491766167
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12768,6 +13851,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1491766170
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491766165}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1516357136
 GameObject:
   m_ObjectHideFlags: 0
@@ -13356,6 +14460,7 @@ GameObject:
   - component: {fileID: 1617489044}
   - component: {fileID: 1617489043}
   - component: {fileID: 1617489042}
+  - component: {fileID: 1617489046}
   m_Layer: 0
   m_Name: Trapdoor_10
   m_TagString: Untagged
@@ -13380,6 +14485,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1617489043
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13492,6 +14598,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1617489046
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617489041}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1625246572
 GameObject:
   m_ObjectHideFlags: 0
@@ -13606,6 +14733,7 @@ GameObject:
   - component: {fileID: 1652814345}
   - component: {fileID: 1652814344}
   - component: {fileID: 1652814343}
+  - component: {fileID: 1652814347}
   m_Layer: 0
   m_Name: Trapdoor_71
   m_TagString: Untagged
@@ -13630,6 +14758,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1652814344
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13742,6 +14871,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1652814347
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652814342}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1671392650
 GameObject:
   m_ObjectHideFlags: 0
@@ -13754,6 +14904,7 @@ GameObject:
   - component: {fileID: 1671392653}
   - component: {fileID: 1671392652}
   - component: {fileID: 1671392651}
+  - component: {fileID: 1671392655}
   m_Layer: 0
   m_Name: Trapdoor_59
   m_TagString: Untagged
@@ -13778,6 +14929,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1671392652
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13890,6 +15042,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1671392655
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671392650}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1683108602
 GameObject:
   m_ObjectHideFlags: 0
@@ -13902,6 +15075,7 @@ GameObject:
   - component: {fileID: 1683108605}
   - component: {fileID: 1683108604}
   - component: {fileID: 1683108603}
+  - component: {fileID: 1683108607}
   m_Layer: 0
   m_Name: Trapdoor_6
   m_TagString: Untagged
@@ -13926,6 +15100,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1683108604
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14038,6 +15213,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1683108607
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683108602}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1701410785
 GameObject:
   m_ObjectHideFlags: 0
@@ -16142,7 +17338,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 2121370076, guid: afa4ef75b36e63849b6f77edd05e232f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16523,6 +17719,7 @@ GameObject:
   - component: {fileID: 1837272979}
   - component: {fileID: 1837272978}
   - component: {fileID: 1837272977}
+  - component: {fileID: 1837272981}
   m_Layer: 0
   m_Name: Trapdoor_51
   m_TagString: Untagged
@@ -16547,6 +17744,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1837272978
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16659,6 +17857,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1837272981
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837272976}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1844260926
 GameObject:
   m_ObjectHideFlags: 0
@@ -16671,6 +17890,7 @@ GameObject:
   - component: {fileID: 1844260929}
   - component: {fileID: 1844260928}
   - component: {fileID: 1844260927}
+  - component: {fileID: 1844260931}
   m_Layer: 0
   m_Name: Trapdoor_48
   m_TagString: Untagged
@@ -16695,6 +17915,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1844260928
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16807,6 +18028,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1844260931
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844260926}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1860617287
 GameObject:
   m_ObjectHideFlags: 0
@@ -16819,6 +18061,7 @@ GameObject:
   - component: {fileID: 1860617290}
   - component: {fileID: 1860617289}
   - component: {fileID: 1860617288}
+  - component: {fileID: 1860617292}
   m_Layer: 0
   m_Name: Trapdoor_68
   m_TagString: Untagged
@@ -16843,6 +18086,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1860617289
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16955,6 +18199,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1860617292
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860617287}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1875101043
 GameObject:
   m_ObjectHideFlags: 0
@@ -16967,6 +18232,7 @@ GameObject:
   - component: {fileID: 1875101046}
   - component: {fileID: 1875101045}
   - component: {fileID: 1875101044}
+  - component: {fileID: 1875101048}
   m_Layer: 0
   m_Name: Trapdoor_25
   m_TagString: Untagged
@@ -16991,6 +18257,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1875101045
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17103,6 +18370,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1875101048
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875101043}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1878765908
 GameObject:
   m_ObjectHideFlags: 0
@@ -17115,6 +18403,7 @@ GameObject:
   - component: {fileID: 1878765911}
   - component: {fileID: 1878765910}
   - component: {fileID: 1878765909}
+  - component: {fileID: 1878765913}
   m_Layer: 0
   m_Name: Trapdoor_5
   m_TagString: Untagged
@@ -17139,6 +18428,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1878765910
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17251,6 +18541,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1878765913
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878765908}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1897726766
 GameObject:
   m_ObjectHideFlags: 0
@@ -17263,6 +18574,7 @@ GameObject:
   - component: {fileID: 1897726769}
   - component: {fileID: 1897726768}
   - component: {fileID: 1897726767}
+  - component: {fileID: 1897726771}
   m_Layer: 0
   m_Name: Trapdoor_26
   m_TagString: Untagged
@@ -17287,6 +18599,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1897726768
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17399,6 +18712,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1897726771
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897726766}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1905175666
 GameObject:
   m_ObjectHideFlags: 0
@@ -17486,6 +18820,7 @@ GameObject:
   - component: {fileID: 1912049204}
   - component: {fileID: 1912049203}
   - component: {fileID: 1912049202}
+  - component: {fileID: 1912049206}
   m_Layer: 0
   m_Name: Trapdoor_62
   m_TagString: Untagged
@@ -17510,6 +18845,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1912049203
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17622,6 +18958,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1912049206
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912049201}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1916808576
 GameObject:
   m_ObjectHideFlags: 0
@@ -17634,6 +18991,7 @@ GameObject:
   - component: {fileID: 1916808579}
   - component: {fileID: 1916808578}
   - component: {fileID: 1916808577}
+  - component: {fileID: 1916808581}
   m_Layer: 0
   m_Name: Trapdoor_3
   m_TagString: Untagged
@@ -17658,6 +19016,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1916808578
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17770,6 +19129,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1916808581
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916808576}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1945864260
 GameObject:
   m_ObjectHideFlags: 0
@@ -17782,6 +19162,7 @@ GameObject:
   - component: {fileID: 1945864263}
   - component: {fileID: 1945864262}
   - component: {fileID: 1945864261}
+  - component: {fileID: 1945864265}
   m_Layer: 0
   m_Name: Trapdoor_42
   m_TagString: Untagged
@@ -17806,6 +19187,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1945864262
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17918,6 +19300,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1945864265
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945864260}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1981749375
 GameObject:
   m_ObjectHideFlags: 0
@@ -17930,6 +19333,7 @@ GameObject:
   - component: {fileID: 1981749378}
   - component: {fileID: 1981749377}
   - component: {fileID: 1981749376}
+  - component: {fileID: 1981749380}
   m_Layer: 0
   m_Name: Trapdoor_12
   m_TagString: Untagged
@@ -17954,6 +19358,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1981749377
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18066,6 +19471,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1981749380
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981749375}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1992233197
 GameObject:
   m_ObjectHideFlags: 0
@@ -18373,6 +19799,7 @@ GameObject:
   - component: {fileID: 2015394882}
   - component: {fileID: 2015394881}
   - component: {fileID: 2015394880}
+  - component: {fileID: 2015394884}
   m_Layer: 0
   m_Name: Trapdoor_1
   m_TagString: Untagged
@@ -18397,6 +19824,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &2015394881
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18509,6 +19937,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2015394884
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015394879}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2032688749
 GameObject:
   m_ObjectHideFlags: 0
@@ -18521,6 +19970,7 @@ GameObject:
   - component: {fileID: 2032688752}
   - component: {fileID: 2032688751}
   - component: {fileID: 2032688750}
+  - component: {fileID: 2032688754}
   m_Layer: 0
   m_Name: Trapdoor_39
   m_TagString: Untagged
@@ -18545,6 +19995,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &2032688751
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18657,6 +20108,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2032688754
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032688749}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2043804631
 GameObject:
   m_ObjectHideFlags: 0
@@ -18744,6 +20216,7 @@ GameObject:
   - component: {fileID: 2059810381}
   - component: {fileID: 2059810380}
   - component: {fileID: 2059810379}
+  - component: {fileID: 2059810383}
   m_Layer: 0
   m_Name: Trapdoor_41
   m_TagString: Untagged
@@ -18768,6 +20241,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &2059810380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18880,6 +20354,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2059810383
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059810378}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2062282286
 GameObject:
   m_ObjectHideFlags: 0
@@ -19036,6 +20531,7 @@ GameObject:
   - component: {fileID: 2074286665}
   - component: {fileID: 2074286664}
   - component: {fileID: 2074286663}
+  - component: {fileID: 2074286667}
   m_Layer: 0
   m_Name: Trapdoor_4
   m_TagString: Untagged
@@ -19060,6 +20556,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &2074286664
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19172,6 +20669,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2074286667
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074286662}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2099713055
 GameObject:
   m_ObjectHideFlags: 0
@@ -19259,6 +20777,7 @@ GameObject:
   - component: {fileID: 2102203836}
   - component: {fileID: 2102203835}
   - component: {fileID: 2102203834}
+  - component: {fileID: 2102203838}
   m_Layer: 0
   m_Name: Trapdoor_61
   m_TagString: Untagged
@@ -19283,6 +20802,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1813230542}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &2102203835
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19395,6 +20915,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 32874522}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2102203838
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102203833}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d216bd96209bbf844a1b7e6209e617de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2126867137
 GameObject:
   m_ObjectHideFlags: 0
@@ -19468,7 +21009,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -19696,51 +21237,11 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 2, y: 6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 3, y: 6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 4, y: 6, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 3
       m_TileSpriteIndex: 3
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 5, y: 6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 6, y: 6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -19782,7 +21283,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 25
+  - m_RefCount: 21
     m_Data: {fileID: 11400000, guid: ed6ff1641b2fb0040a952e7690785b65, type: 2}
   - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: a0c5df3991ccbb54dbfee3094a89e53b, type: 2}
@@ -19791,12 +21292,12 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 25
+  - m_RefCount: 21
     m_Data: {fileID: 97881899, guid: 52e16f650f7253c499d62a10cef036a1, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: -389334537, guid: 52e16f650f7253c499d62a10cef036a1, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 29
+  - m_RefCount: 25
     m_Data:
       e00: 1
       e01: 0
@@ -19815,7 +21316,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 29
+  - m_RefCount: 25
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
