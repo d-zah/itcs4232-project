@@ -13,6 +13,7 @@ public class ButtonPanelScript : MonoBehaviour
     public VectorValue playerStorage;
     public Animator anim;
     public int elevatorBuildIndex;
+    public Conversation convo;
 
     private int totalSelections;
     private int selectionCode;
@@ -57,7 +58,7 @@ public class ButtonPanelScript : MonoBehaviour
                 triggered = true;
                 //goBack();
             } else {
-                Debug.Log("incorrect");
+                DialogueManager.StartConversation(convo);
                 goBack();
             }
             foreach (Selectable selectableUI in selectablesArray) {

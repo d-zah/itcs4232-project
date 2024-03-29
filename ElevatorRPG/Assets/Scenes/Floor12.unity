@@ -251,6 +251,7 @@ MonoBehaviour:
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1085857775}
   elevatorBuildIndex: 17
+  convo: {fileID: 11400000, guid: d7ba15a39f0c0a84cb4ce5ca7c165454, type: 2}
 --- !u!114 &36614316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2130,6 +2131,7 @@ MonoBehaviour:
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 1085857775}
   elevatorBuildIndex: 16
+  convo: {fileID: 11400000, guid: d7ba15a39f0c0a84cb4ce5ca7c165454, type: 2}
 --- !u!114 &671565622
 MonoBehaviour:
   m_ObjectHideFlags: 0
