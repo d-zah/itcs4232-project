@@ -12,7 +12,7 @@ public class EmitterMovement : MonoBehaviour
 
     [SerializeField] private float start_X, start_Y, end_X, end_Y;
 
-    private float duration = 4f;
+    [SerializeField] private float duration;
     private float elapsedTime;
 
     
