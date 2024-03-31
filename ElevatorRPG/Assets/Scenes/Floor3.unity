@@ -8919,7 +8919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edb864e4652835e4ca16b6a8980592d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
+  playerController: {fileID: 9096167327739118066}
   buttonMenu: {fileID: 2101343460}
 --- !u!61 &1569041857
 BoxCollider2D:
