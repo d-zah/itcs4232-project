@@ -7861,6 +7861,7 @@ MonoBehaviour:
   start_Y: 0.75
   end_X: 8.5
   end_Y: -4.5
+  duration: 4
 --- !u!61 &1415998417
 BoxCollider2D:
   m_ObjectHideFlags: 0

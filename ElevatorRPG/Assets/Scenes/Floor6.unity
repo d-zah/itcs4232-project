@@ -9769,7 +9769,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1698087122643194643, guid: 0f40921cae48ea548bc9cc27f057a49c, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1853835123469891881, guid: 0f40921cae48ea548bc9cc27f057a49c, type: 3}
       propertyPath: m_LocalPosition.x
