@@ -3901,8 +3901,8 @@ MonoBehaviour:
     m_Handle: 0
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
-  anim: {fileID: 0}
-  playerController: {fileID: 0}
+  anim: {fileID: 702502339}
+  playerController: {fileID: 9096167327739118066}
 --- !u!61 &1162903466
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3988,7 +3988,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 1814427927, guid: ea4842068221efc40bf2d2c6ade6031b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
