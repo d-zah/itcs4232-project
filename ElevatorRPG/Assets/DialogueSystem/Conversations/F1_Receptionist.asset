@@ -16,18 +16,9 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 1aa54d9c934579743be71932f1422281, type: 2}
     dialogue: Hello, welcome to Rement Inc. How can I help you?
   - speaker: {fileID: 11400000, guid: f9a3e18743247ea4aa46ba7eefea4a91, type: 2}
-    dialogue: I don't know how I got here.
+    dialogue: Hello, I'm here for an interview with "The Boss"
   - speaker: {fileID: 11400000, guid: 1aa54d9c934579743be71932f1422281, type: 2}
-    dialogue: ...
-  - speaker: {fileID: 11400000, guid: f9a3e18743247ea4aa46ba7eefea4a91, type: 2}
-    dialogue: I do have this, though.
-  - speaker: {fileID: 11400000, guid: 1aa54d9c934579743be71932f1422281, type: 2}
-    dialogue: ...
-  - speaker: {fileID: 11400000, guid: 1aa54d9c934579743be71932f1422281, type: 2}
-    dialogue: Oh.
-  - speaker: {fileID: 11400000, guid: 1aa54d9c934579743be71932f1422281, type: 2}
-    dialogue: You need to take this to the boss immediately. His office is on the
-      13th floor.
+    dialogue: Yes, of course. His office is somewhere around the 13th floor.
   - speaker: {fileID: 11400000, guid: 1aa54d9c934579743be71932f1422281, type: 2}
     dialogue: You'll need to take the elevators to get up there, but they're all
       password protected.
@@ -41,4 +32,4 @@ MonoBehaviour:
     dialogue: There will be some Rement Inc. employees around the office that can
       help you out with the other elevators.
   - speaker: {fileID: 11400000, guid: 1aa54d9c934579743be71932f1422281, type: 2}
-    dialogue: Now please, deliver that to the 13th floor as soon as possible.
+    dialogue: Now please, the 13th floor awaits.

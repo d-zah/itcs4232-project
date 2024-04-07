@@ -11714,7 +11714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbe7ccb7277dc594d86eaf35f94dc387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 0}
+  playerController: {fileID: 1998302736}
   buttonMenu: {fileID: 2009470997}
   targetSelectionCode: 15
   selectablesArray:
@@ -11733,7 +11733,7 @@ MonoBehaviour:
   - {fileID: 1622502498}
   - {fileID: 405878634}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
-  anim: {fileID: 0}
+  anim: {fileID: 1253034011}
   elevatorBuildIndex: 14
   convo: {fileID: 11400000, guid: d7ba15a39f0c0a84cb4ce5ca7c165454, type: 2}
 --- !u!114 &2009470999
