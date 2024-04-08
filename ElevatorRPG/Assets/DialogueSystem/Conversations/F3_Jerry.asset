@@ -20,5 +20,5 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 5a981b23145b6f545986d8362115d0f8, type: 2}
     dialogue: 'I don''t, sorry. '
   - speaker: {fileID: 11400000, guid: 5a981b23145b6f545986d8362115d0f8, type: 2}
-    dialogue: A conference that just ended on Floor 10 though, there's definitely
-      someone up there who knows.
+    dialogue: A conference just ended on Floor 10 though, there's probably someone
+      up there who knows.
