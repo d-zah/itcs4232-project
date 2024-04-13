@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e785922f32670cd409735dfac7207b3f, type: 3}
   m_Name: F6_Abby
   m_EditorClassIdentifier: 
-  allLines: []
+  allLines:
+  - speaker: {fileID: 11400000, guid: eaf44ee10d15ada478fa0c49544d5a25, type: 2}
+    dialogue: I've had so much work to do, I lost track of what day it is...
+  - speaker: {fileID: 11400000, guid: eaf44ee10d15ada478fa0c49544d5a25, type: 2}
+    dialogue: Is it Friday yet...?
