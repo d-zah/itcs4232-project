@@ -3024,6 +3024,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convo: {fileID: 11400000, guid: 202acac55c1976d489a65f3b00fe2c96, type: 2}
+  canTalkToTwice: 1
+  hasTalkedTo: 0
 --- !u!61 &784861890
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12224,6 +12226,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   convo: {fileID: 11400000, guid: 0c6f2b9754ea9884e9bab9c26c07b1c0, type: 2}
+  canTalkToTwice: 0
+  hasTalkedTo: 0
 --- !u!4 &1421652429110828539
 Transform:
   m_ObjectHideFlags: 0
