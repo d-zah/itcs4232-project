@@ -446,7 +446,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npcs-Sheet_16
+      name: marissa
       rect:
         serializedVersion: 2
         x: 256
@@ -568,11 +568,11 @@ TextureImporter:
       dave: -1415263994
       jerry: 855190718
       laura: 1478112315
+      marissa: 670404776
       max: -1699873752
       neutra: -1394228415
       npcs-Sheet_0: 888127440
       npcs-Sheet_10: 38454741
-      npcs-Sheet_16: 670404776
       npcs-Sheet_17: 1051677281
       npcs-Sheet_18: -2140730978
       npcs-Sheet_19: 1512876919

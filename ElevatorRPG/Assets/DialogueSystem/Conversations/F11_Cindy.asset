@@ -19,8 +19,8 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: a959647dc402cee478a585109f2ccea4, type: 2}
     dialogue: You can figure it out yourself, though.
   - speaker: {fileID: 11400000, guid: a959647dc402cee478a585109f2ccea4, type: 2}
-    dialogue: Note the 3 floors that you've seen elevator E and add floor 13, which
-      will give you the password.
+    dialogue: Add floor 13 to the 3 floors that you've seen elevator E on, and you
+      will have the password.
   - speaker: {fileID: 11400000, guid: a959647dc402cee478a585109f2ccea4, type: 2}
-    dialogue: There's only 1 floor that you can actually access elevator E from,
-      so access that panel when you've discovered the locations.
+    dialogue: There's only 1 floor that you can reach elevator E from here, so access
+      that panel when you've deciphered the locations.
