@@ -39,10 +39,10 @@ public class ConversationStart : MonoBehaviour
         if(!canTalkToTwice && hasTalkedTo) return;
         if(isTalkingTo) return;
         if(!Input.GetKeyDown(KeyCode.E) && requiresEPress) return;
-        
+        if(requiresEPress) pressEPrompt.SetActive(false);
+
         playerController.playerCanMove(true);
         DialogueManager.StartConversation(convo);
-        pressEPrompt.SetActive(false);
         isTalkingTo = true;
         hasTalkedTo = true;
         

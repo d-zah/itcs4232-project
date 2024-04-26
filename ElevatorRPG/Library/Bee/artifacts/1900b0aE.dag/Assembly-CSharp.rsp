@@ -388,9 +388,11 @@
 "Assets/Scripts/Ladder.cs"
 "Assets/Scripts/Laser.cs"
 "Assets/Scripts/Laser_facingup.cs"
+"Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SceneTransition.cs"
 "Assets/Scripts/ScriptableObjects/VectorValue.cs"
+"Assets/Scripts/SettingsMenu.cs"
 -langversion:9.0
 
 /deterministic

@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ElevatorE.unity
     guid: f9ddf8fa2874d96488fab7b305780d82
+  - enabled: 1
+    path: Assets/Scenes/Floor14.unity
+    guid: 14cdb3c8a3741934dbbabc25b1225813
   m_configObjects: {}
