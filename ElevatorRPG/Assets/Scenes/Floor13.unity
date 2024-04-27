@@ -7083,7 +7083,7 @@ MonoBehaviour:
   playerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
   anim: {fileID: 401030758}
-  destinationBuildIndex: 1
+  destinationBuildIndex: 19
 --- !u!1 &943191914
 GameObject:
   m_ObjectHideFlags: 0
