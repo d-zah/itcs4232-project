@@ -33,7 +33,7 @@ public class Ladder : MonoBehaviour
             if(lerpActive == false && triggered == true) {
                 //set up lerp
                 startPosition = player.transform.position;
-                endPosition = new Vector3(transform.position.x, transform.position.y + .5f, transform.position.z);
+                endPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
                 
                 //begin panel transition
                 anim.SetBool("isSceneActive", false);

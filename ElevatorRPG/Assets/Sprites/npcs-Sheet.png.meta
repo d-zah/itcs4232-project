@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: npcs-Sheet_0
+      name: will
       rect:
         serializedVersion: 2
         x: 0
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npcs-Sheet_5
+      name: boss
       rect:
         serializedVersion: 2
         x: 80
@@ -562,6 +562,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       abby: -1520889689
+      boss: 1204233377
       bri: 286379809
       brock: -1472166781
       cindy: 52284422
@@ -571,17 +572,16 @@ TextureImporter:
       marissa: 670404776
       max: -1699873752
       neutra: -1394228415
-      npcs-Sheet_0: 888127440
       npcs-Sheet_10: 38454741
       npcs-Sheet_17: 1051677281
       npcs-Sheet_18: -2140730978
       npcs-Sheet_19: 1512876919
       npcs-Sheet_4: 1765531459
-      npcs-Sheet_5: 1204233377
       npcs-Sheet_8: 1125888766
       npcs-Sheet_9: 1080541230
       receptionist: 648797409
       victor: 2059854756
+      will: 888127440
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
