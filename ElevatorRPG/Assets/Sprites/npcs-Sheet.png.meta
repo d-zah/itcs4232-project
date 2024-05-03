@@ -320,7 +320,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npcs-Sheet_10
+      name: amy
       rect:
         serializedVersion: 2
         x: 160
@@ -562,6 +562,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       abby: -1520889689
+      amy: 38454741
       aniyah: 1051677281
       boss: 1204233377
       bri: 286379809
@@ -575,7 +576,6 @@ TextureImporter:
       max: -1699873752
       mikey: 1080541230
       neutra: -1394228415
-      npcs-Sheet_10: 38454741
       npcs-Sheet_18: -2140730978
       npcs-Sheet_19: 1512876919
       npcs-Sheet_8: 1125888766

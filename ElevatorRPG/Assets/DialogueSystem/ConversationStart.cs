@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ConversationStart : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class ConversationStart : MonoBehaviour
     [SerializeField] private bool canTalkToTwice;
     [SerializeField] private bool requiresEPress;
     [SerializeField] private bool hasTalkedTo;
+    [SerializeField] private bool isBoss;
     private bool isTalkingTo;
     public GameObject pressEPrompt;
     private bool isInTrigger;
@@ -31,6 +33,7 @@ public class ConversationStart : MonoBehaviour
             isInTrigger = false;
             isTalkingTo = false;
             if(requiresEPress) pressEPrompt.SetActive(false);
+            if(isBoss) SceneManager.LoadScene(20); //reset to win screen
         }
     }
 
