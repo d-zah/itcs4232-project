@@ -18,9 +18,7 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: fc29ac90f11d7d54fb6333875fa4d694, type: 2}
     dialogue: 'Congratulations on surpassing the lasers. '
   - speaker: {fileID: 11400000, guid: fc29ac90f11d7d54fb6333875fa4d694, type: 2}
-    dialogue: 'I''ll be honest: I''m supposed to be a boss fight, but since this
-      is a game demo, your journey ends here.'
+    dialogue: Because of your resilience and problem-solving skills, we have made
+      the obvious decision to hire you.
   - speaker: {fileID: 11400000, guid: fc29ac90f11d7d54fb6333875fa4d694, type: 2}
-    dialogue: The developer ran out of time to implement anything here, so......
-  - speaker: {fileID: 11400000, guid: fc29ac90f11d7d54fb6333875fa4d694, type: 2}
-    dialogue: You're hired.
+    dialogue: Welcome to Rement Inc.

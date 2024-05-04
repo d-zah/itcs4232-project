@@ -31,7 +31,7 @@ public class SceneTransition : MonoBehaviour
     }
 
     public void Update() {
-            if(lerpActive == false && triggered == true) {
+            if(lerpActive == false && triggered == true) { //if trapdoor is hit
                 //set up lerp
                 startPosition = player.transform.position;
                 endPosition = new Vector3(transform.position.x, transform.position.y + .5f, transform.position.z);
@@ -41,13 +41,13 @@ public class SceneTransition : MonoBehaviour
                 trapdoorAnim.SetBool("trapdoorOpen", true);
                 playerController.makePlayerFall();
                 lerpActive = true;
-            } else if(elapsedTime / duration > .99 && triggered == true) {
+            } else if(elapsedTime / duration > .99 && triggered == true) { //if lerp is done
                 lerpActive = false;
                 playerStorage.initialValue = playerPosition;
                 //switch to new scene
                 currentScene = SceneManager.GetActiveScene();
                 SceneManager.LoadScene(currentScene.buildIndex - 1);
-            } else if(triggered == true) {
+            } else if(triggered == true) { //progress lerp
                 elapsedTime += Time.deltaTime;
                 float percentageComplete = elapsedTime / duration;
                 player.transform.position = Vector3.Lerp(startPosition, endPosition, percentageComplete);
