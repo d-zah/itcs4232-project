@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
@@ -7,6 +8,9 @@ public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI speakerName, dialogue, navButtonText;
     public Image speakerSprite;
+    public List<AudioClip> maleSpeakingSounds = new List<AudioClip>();
+    public List<AudioClip> femaleSpeakingSounds = new List<AudioClip>();
+    public AudioClip elevatorIncorrect;
 
     private int currentIndex;
     private Conversation currentConvo;
@@ -14,9 +18,12 @@ public class DialogueManager : MonoBehaviour
     private Animator anim;
     private Coroutine typing;
     private PlayerController playerController;
+    private AudioSource audioSource;
 
     //make certain this is the only DialogueManager
     private void Awake(){
+
+        audioSource = GetComponent<AudioSource>();
 
         playerController = GameObject.Find("Player").GetComponent<PlayerController>();
 
@@ -47,15 +54,19 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        playAudio();
+
         speakerName.text = currentConvo.GetLineByIndex(currentIndex).speaker.GetName();
 
         //reset typing if dialogue line is skipped
         if(typing == null){
             typing = instance.StartCoroutine(TypeText(currentConvo.GetLineByIndex(currentIndex).dialogue));
         } else {
+            audioSource.Stop();
             instance.StopCoroutine(typing);
             typing = null;
             typing = instance.StartCoroutine(TypeText(currentConvo.GetLineByIndex(currentIndex).dialogue));
+            playAudio();
         }
 
         speakerSprite.sprite = currentConvo.GetLineByIndex(currentIndex).speaker.GetSprite();
@@ -80,9 +91,26 @@ public class DialogueManager : MonoBehaviour
 
             if(index == text.Length){
                 complete = true;
+                audioSource.Stop();
             }
         }
 
         typing = null;
+    }
+
+    private void playAudio(){
+        int index = Random.Range(0, maleSpeakingSounds.Count);
+        if(currentConvo.GetLineByIndex(currentIndex).isElevator){
+            if(currentConvo.GetLineByIndex(currentIndex).isMale){
+                audioSource.PlayOneShot(elevatorIncorrect, 0.075f);
+            } 
+        } else {
+            if(currentConvo.GetLineByIndex(currentIndex).isMale){
+                audioSource.PlayOneShot(maleSpeakingSounds[index], 0.15f);
+            } else {
+                audioSource.PlayOneShot(femaleSpeakingSounds[index], 0.15f);
+            }
+            
+        }
     }
 }

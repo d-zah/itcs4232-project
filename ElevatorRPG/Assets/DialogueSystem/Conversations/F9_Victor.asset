@@ -15,9 +15,18 @@ MonoBehaviour:
   allLines:
   - speaker: {fileID: 11400000, guid: 561a3c70d7ecdf54583acbed4c5f5b99, type: 2}
     dialogue: The password for elevvvator D is as simple as the one for B!
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 561a3c70d7ecdf54583acbed4c5f5b99, type: 2}
-    dialogue: Just like B's obsession with 3, elevvvator D prefers the letter V!
+    dialogue: Just like B's obsession with lengths of 3, elevvvator D prefers the
+      containment of V!
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 561a3c70d7ecdf54583acbed4c5f5b99, type: 2}
     dialogue: Now scribe each possibility, and the password you shall see!
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: f9a3e18743247ea4aa46ba7eefea4a91, type: 2}
     dialogue: (...what is with this guy?)
+    isMale: 0
+    isElevator: 1

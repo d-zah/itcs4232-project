@@ -12,6 +12,8 @@ public class SceneTransition : MonoBehaviour
     [SerializeField] public Animator anim;
     public PlayerController playerController;
     private Animator trapdoorAnim;
+    private AudioSource audioSource;
+    public AudioClip trapdoorFalling;
     
 
     //lerp
@@ -24,6 +26,7 @@ public class SceneTransition : MonoBehaviour
     
 
     public void Start() {
+        audioSource = GetComponent<AudioSource>();
         trapdoorAnim = GetComponent<Animator>();
         playerPosition = new Vector2(transform.position.x, transform.position.y);
         lerpActive = false;
@@ -37,6 +40,7 @@ public class SceneTransition : MonoBehaviour
                 endPosition = new Vector3(transform.position.x, transform.position.y + .5f, transform.position.z);
                 
                 //begin panel transition
+                audioSource.PlayOneShot(trapdoorFalling, 0.15f);
                 anim.SetBool("isSceneActive", false);
                 trapdoorAnim.SetBool("trapdoorOpen", true);
                 playerController.makePlayerFall();

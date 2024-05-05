@@ -15,21 +15,37 @@ MonoBehaviour:
   allLines:
   - speaker: {fileID: 11400000, guid: 1aa54d9c934579743be71932f1422281, type: 2}
     dialogue: Hello, welcome to Rement Inc. How can I help you?
+    isMale: 0
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: f9a3e18743247ea4aa46ba7eefea4a91, type: 2}
     dialogue: Hello, I'm here for an interview with "The Boss"
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 1aa54d9c934579743be71932f1422281, type: 2}
     dialogue: Yes, of course. You can access his office on the 13th floor.
+    isMale: 0
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 1aa54d9c934579743be71932f1422281, type: 2}
     dialogue: You'll need to take the elevators to get up there, but they're all
       password protected.
+    isMale: 0
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 1aa54d9c934579743be71932f1422281, type: 2}
     dialogue: Every elevator's password consists of each of the four floors that
       it services.
+    isMale: 0
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 1aa54d9c934579743be71932f1422281, type: 2}
     dialogue: You'll need to take "Elevator A" first, which is to your left. You
       can unlock it by inputting 1, 2, 3, 4.
+    isMale: 0
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 1aa54d9c934579743be71932f1422281, type: 2}
     dialogue: There will be some Rement Inc. employees around the office that can
       help you out with the other elevators.
+    isMale: 0
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 1aa54d9c934579743be71932f1422281, type: 2}
     dialogue: Now please, the 13th floor awaits.
+    isMale: 0
+    isElevator: 0

@@ -14,6 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allLines:
   - speaker: {fileID: 11400000, guid: eaf44ee10d15ada478fa0c49544d5a25, type: 2}
-    dialogue: I've had so much work to do, I lost track of what day it is...
+    dialogue: Do you ever feel like you're just doing the same thing over and over?
+    isMale: 0
+    isElevator: 0
+  - speaker: {fileID: 11400000, guid: eaf44ee10d15ada478fa0c49544d5a25, type: 2}
+    dialogue: ...
+    isMale: 0
+    isElevator: 1
   - speaker: {fileID: 11400000, guid: eaf44ee10d15ada478fa0c49544d5a25, type: 2}
     dialogue: Is it Friday yet...?
+    isMale: 0
+    isElevator: 0

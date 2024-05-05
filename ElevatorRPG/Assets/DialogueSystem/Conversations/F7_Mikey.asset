@@ -15,6 +15,10 @@ MonoBehaviour:
   allLines:
   - speaker: {fileID: 11400000, guid: 11fc1a6d0cd9dd846977ee84020e8b20, type: 2}
     dialogue: This conference ended 10 minutes ago...
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 11fc1a6d0cd9dd846977ee84020e8b20, type: 2}
     dialogue: One of the attendees went up to the 11th floor if you're looking for
       information about elevators.
+    isMale: 1
+    isElevator: 0

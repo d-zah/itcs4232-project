@@ -15,15 +15,27 @@ MonoBehaviour:
   allLines:
   - speaker: {fileID: 11400000, guid: 5f01b27e83611204ea954d7245bf5a4e, type: 2}
     dialogue: ... Did you hear the boss is looking for a 3rd intern?
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 0e427cdf786efaa44878ed7a67b47890, type: 2}
     dialogue: Really? I wonder why he thinks another one is necessary.
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 8324e3f551f73cc4ca53e2c25d0e2eed, type: 2}
     dialogue: Well, you know how he is with 3's after all.
+    isMale: 0
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 0e427cdf786efaa44878ed7a67b47890, type: 2}
     dialogue: Right... assigning 3 people per conference, putting 3 elevators on
       the 3rd floor, setting the elevator C password...
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 5f01b27e83611204ea954d7245bf5a4e, type: 2}
     dialogue: He just has a strange obsession with multiples of 3 it seems.
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 8324e3f551f73cc4ca53e2c25d0e2eed, type: 2}
     dialogue: It feels like a security risk though... what if someone figured that
       out?
+    isMale: 0
+    isElevator: 0

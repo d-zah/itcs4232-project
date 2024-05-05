@@ -16,5 +16,9 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: 590b4bd0aa40dcc489695d76a3e785f9, type: 2}
     dialogue: It's kind of funny how empty we had to make this room because of how
       many trapdoors are above.
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 590b4bd0aa40dcc489695d76a3e785f9, type: 2}
     dialogue: Make sure you watch your step if you go up there!
+    isMale: 1
+    isElevator: 0

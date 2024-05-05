@@ -15,13 +15,25 @@ MonoBehaviour:
   allLines:
   - speaker: {fileID: 11400000, guid: 4ed634ab7ca47904e968942d3310901f, type: 2}
     dialogue: Whoa there! Watch your step!
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: f9a3e18743247ea4aa46ba7eefea4a91, type: 2}
     dialogue: ...
+    isMale: 0
+    isElevator: 1
   - speaker: {fileID: 11400000, guid: 4ed634ab7ca47904e968942d3310901f, type: 2}
     dialogue: Are you new around here? These are trapdoors.
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 4ed634ab7ca47904e968942d3310901f, type: 2}
     dialogue: They'll send you down to the same spot on the floor below.
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 4ed634ab7ca47904e968942d3310901f, type: 2}
     dialogue: So only walk into them if you're intending on going down!
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 4ed634ab7ca47904e968942d3310901f, type: 2}
     dialogue: (It's beyond me why the boss thought these were a good idea...)
+    isMale: 1
+    isElevator: 0

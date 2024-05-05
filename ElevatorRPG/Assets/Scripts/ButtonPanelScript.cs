@@ -14,6 +14,8 @@ public class ButtonPanelScript : MonoBehaviour
     public Animator anim;
     public int elevatorBuildIndex;
     public Conversation convo;
+    public List<AudioClip> audioClickSounds = new List<AudioClip>();
+    public AudioClip elevatorDing;
 
     private int totalSelections;
     private int selectionCode;
@@ -21,9 +23,12 @@ public class ButtonPanelScript : MonoBehaviour
     private bool timerActive;
     private float duration = 1f;
     private float elapsedTime;
+    private AudioSource audioSource;
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
         totalSelections = 0;
         selectionCode = 0;
         triggered = false;
@@ -51,27 +56,46 @@ public class ButtonPanelScript : MonoBehaviour
 
         selectionCode += selection;
         totalSelections++;
+
+        
+
         //Debug.Log(totalSelections);
         if(totalSelections == 4){
             if(selectionCode == targetSelectionCode){
                 //open elevator
+                audioSource.PlayOneShot(elevatorDing, 0.25f);
                 triggered = true;
                 //goBack();
-            } else {
+
+                foreach (Selectable selectableUI in selectablesArray) {
+                    //make all buttons selectable again
+                    selectableUI.interactable = true;
+                }
+                //reset password detector
+                totalSelections = 0;
+                selectionCode = 0;
+
+            } else { //wrong
+            
                 DialogueManager.StartConversation(convo);
                 goBack();
             }
-            foreach (Selectable selectableUI in selectablesArray) {
-                //make all buttons selectable again
-                selectableUI.interactable = true;
-            }
-            //reset password detector
-            totalSelections = 0;
-            selectionCode = 0;
+            
+        } else {
+            int index = Random.Range(0, audioClickSounds.Count);
+            audioSource.PlayOneShot(audioClickSounds[index], 0.5f);
         }
     }
 
     public void goBack(){
+        foreach (Selectable selectableUI in selectablesArray) {
+            //make all buttons selectable again
+            selectableUI.interactable = true;
+        }
+        //reset password detector
+        totalSelections = 0;
+        selectionCode = 0;
+
         buttonMenu.SetActive(false);
         playerController.playerCanMove(false);
     }

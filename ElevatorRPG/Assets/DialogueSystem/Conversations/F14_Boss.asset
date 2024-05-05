@@ -15,10 +15,18 @@ MonoBehaviour:
   allLines:
   - speaker: {fileID: 11400000, guid: fc29ac90f11d7d54fb6333875fa4d694, type: 2}
     dialogue: Welcome to my office.
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: fc29ac90f11d7d54fb6333875fa4d694, type: 2}
     dialogue: 'Congratulations on surpassing the lasers. '
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: fc29ac90f11d7d54fb6333875fa4d694, type: 2}
     dialogue: Because of your resilience and problem-solving skills, we have made
       the obvious decision to hire you.
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: fc29ac90f11d7d54fb6333875fa4d694, type: 2}
     dialogue: Welcome to Rement Inc.
+    isMale: 1
+    isElevator: 0

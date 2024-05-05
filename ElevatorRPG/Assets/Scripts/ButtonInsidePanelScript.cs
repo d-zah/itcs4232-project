@@ -14,11 +14,13 @@ public class ButtonInsidePanelScript : MonoBehaviour
     public VectorValue playerStorage;
     private GameObject player;
     [SerializeField] private Animator anim;
+    public List<AudioClip> audioClickSounds = new List<AudioClip>();
 
     private bool triggered;
     private bool timerActive;
     private float duration = 1f;
     private float elapsedTime;
+    private AudioSource audioSource;
 
     private const int ELEVATOR_A_INDEX = 14;
     private const int ELEVATOR_B_INDEX = 15;
@@ -28,6 +30,8 @@ public class ButtonInsidePanelScript : MonoBehaviour
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
         triggered = false;
         timerActive = false;
     }
@@ -69,12 +73,18 @@ public class ButtonInsidePanelScript : MonoBehaviour
 
     public void addSelection(int selection){
         // Debug.Log("selected");
+        int index = Random.Range(0, audioClickSounds.Count);
+        audioSource.PlayOneShot(audioClickSounds[index], 0.5f);
+
         destinationBuildIndex = selection;
         triggered = true;
 
     }
 
     public void goBack(){
+        int index = Random.Range(0, audioClickSounds.Count);
+        audioSource.PlayOneShot(audioClickSounds[index], 0.5f);
+
         buttonMenu.SetActive(false);
         playerController.playerCanMove(false);
     }

@@ -15,11 +15,19 @@ MonoBehaviour:
   allLines:
   - speaker: {fileID: 11400000, guid: 1afa1a66cbd124148a5c72a481d04354, type: 2}
     dialogue: Does The Boss even want us to report to his office?!
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 1afa1a66cbd124148a5c72a481d04354, type: 2}
     dialogue: It's so difficult to make it through these lasers...
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 1afa1a66cbd124148a5c72a481d04354, type: 2}
     dialogue: They seem to follow a pattern, but there's only one way to get to the
       ladder over there.
+    isMale: 1
+    isElevator: 0
   - speaker: {fileID: 11400000, guid: 1afa1a66cbd124148a5c72a481d04354, type: 2}
     dialogue: If you're planning on going over there, you're gonna have to learn
       the patterns and only move when the time is right.
+    isMale: 1
+    isElevator: 0

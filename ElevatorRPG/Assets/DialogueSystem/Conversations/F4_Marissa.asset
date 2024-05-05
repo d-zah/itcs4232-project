@@ -12,4 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e785922f32670cd409735dfac7207b3f, type: 3}
   m_Name: F4_Marissa
   m_EditorClassIdentifier: 
-  allLines: []
+  allLines:
+  - speaker: {fileID: 11400000, guid: 8a78217e96773df469863516861992c8, type: 2}
+    dialogue: Be very careful of the trapdoors!
+    isMale: 0
+    isElevator: 0
+  - speaker: {fileID: 11400000, guid: 8a78217e96773df469863516861992c8, type: 2}
+    dialogue: You're going to need to be very aware of your movement when you get
+      to higher floors with more precise paths!
+    isMale: 0
+    isElevator: 0
