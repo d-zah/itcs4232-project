@@ -380,7 +380,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "WASD \nE \nRMB"
+  m_text: "WASD \nE \nLMB"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9f92326d622b0f247a2115477ff2e110, type: 2}
   m_sharedMaterial: {fileID: -647771465173016350, guid: 9f92326d622b0f247a2115477ff2e110, type: 2}

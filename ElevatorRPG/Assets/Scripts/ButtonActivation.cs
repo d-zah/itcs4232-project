@@ -6,12 +6,35 @@ public class ButtonActivation : MonoBehaviour
 {
     public PlayerController playerController;
     public GameObject buttonMenu;
+    public GameObject pressEPrompt;
+    private bool isInTrigger;
+
+
+    public void Awake(){
+        isInTrigger = false;
+    }
 
     public void OnTriggerEnter2D(Collider2D other) {
         if(other.CompareTag("Player") && !other.isTrigger) {
-            buttonMenu.SetActive(true);
-            playerController.playerCanMove(true);
+            isInTrigger = true;
+            pressEPrompt.SetActive(true);
         }
+    }
+
+    public void OnTriggerExit2D(Collider2D other){
+        if(other.CompareTag("Player") && !other.isTrigger) {
+            isInTrigger = false;
+            pressEPrompt.SetActive(false);
+        }
+    }
+
+    public void Update(){
+        if(!isInTrigger) return;
+        if(!Input.GetKeyDown(KeyCode.E)) return;
+
+        playerController.playerCanMove(true);
+        buttonMenu.SetActive(true);
+        
     }
 
 }
