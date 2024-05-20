@@ -51,6 +51,7 @@ public class PlayerController : MonoBehaviour
         inputHorizontal = Input.GetAxisRaw("Horizontal");
         inputVertical = Input.GetAxisRaw("Vertical");
 
+        // if not moving
         if (!(Mathf.Abs(inputHorizontal) == 0.0f && Mathf.Abs(inputVertical) == 0.0f))
         {
             animator.SetFloat("moveX", inputHorizontal);
@@ -69,19 +70,22 @@ public class PlayerController : MonoBehaviour
     public void PlayerMovement() 
     {
         
-            float targetVelocityX = inputHorizontal * playerMaxSpeed;
-            float targetVelocityY = inputVertical * playerMaxSpeed;
+            float targetVelocityX = inputHorizontal;
+            float targetVelocityY = inputVertical;
 
             // Apply acceleration/deceleration to movement
-            targetVelocityX = inputHorizontal * playerMaxSpeed;
+            targetVelocityX = inputHorizontal;
             float tx = acceleration * Time.deltaTime;
             currentVelocityX = Mathf.Lerp(currentVelocityX, targetVelocityX, tx);
-            rb.velocity = new Vector2(currentVelocityX, rb.velocity.y);
+            //rb.velocity = new Vector2(currentVelocityX, rb.velocity.y);
 
-            targetVelocityY = inputVertical * playerMaxSpeed;
+            targetVelocityY = inputVertical;
             float ty = acceleration * Time.deltaTime;
             currentVelocityY = Mathf.Lerp(currentVelocityY, targetVelocityY, ty);
-            rb.velocity = new Vector2(rb.velocity.x, currentVelocityY);
+
+            //assign velocity
+            rb.velocity = new Vector2(currentVelocityX, currentVelocityY);
+            rb.velocity = Vector2.ClampMagnitude(rb.velocity, 1.0f) * playerMaxSpeed;
         
             
         }
