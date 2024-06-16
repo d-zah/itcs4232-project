@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Components")]
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] PauseMenu pauseMenu;
 
 
     public void Awake() {
@@ -60,6 +61,14 @@ public class PlayerController : MonoBehaviour
         } else {
             animator.SetBool("moving", false);
         }
+
+        checkForPause();
+    }
+
+    void checkForPause(){
+        if(!Input.GetKeyDown(KeyCode.Escape)) return;
+
+        pauseMenu.pause();
     }
 
     void FixedUpdate()

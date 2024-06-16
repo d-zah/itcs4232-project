@@ -380,7 +380,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "WASD \nE \nLMB"
+  m_text: "WASD \nE \nLMB\nesc"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9f92326d622b0f247a2115477ff2e110, type: 2}
   m_sharedMaterial: {fileID: -647771465173016350, guid: 9f92326d622b0f247a2115477ff2e110, type: 2}
@@ -570,7 +570,9 @@ MonoBehaviour:
 
     - interact
 
-    - select button'
+    - select button
+
+    - pause'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9f92326d622b0f247a2115477ff2e110, type: 2}
   m_sharedMaterial: {fileID: -647771465173016350, guid: 9f92326d622b0f247a2115477ff2e110, type: 2}
@@ -2261,8 +2263,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -478, y: -278.4}
-  m_SizeDelta: {x: 563.35, y: 288.66}
+  m_AnchoredPosition: {x: -478, y: -278.63}
+  m_SizeDelta: {x: 563.35, y: 253.5306}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1835660069
 MonoBehaviour:
@@ -2347,7 +2349,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 0.000045776367}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
