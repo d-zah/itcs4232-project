@@ -63,6 +63,31 @@ public class ButtonPanelScript : MonoBehaviour
         if(totalSelections == 4){
             if(selectionCode == targetSelectionCode){
                 //open elevator
+                switch(elevatorBuildIndex) {
+                    case 14:
+                        if(playerStorage.elevatorProgress < 1)
+                            playerStorage.elevatorProgress = 1;
+                        break;
+                    case 15:
+                        if(playerStorage.elevatorProgress < 2)
+                            playerStorage.elevatorProgress = 2;
+                        break;
+                    case 16:
+                        if(playerStorage.elevatorProgress < 3)
+                            playerStorage.elevatorProgress = 3;
+                        break;
+                    case 17:
+                        if(playerStorage.elevatorProgress < 4)
+                            playerStorage.elevatorProgress = 4;
+                        break;
+                    case 18:
+                        if(playerStorage.elevatorProgress < 5)
+                            playerStorage.elevatorProgress = 5;
+                        break;
+                    default:
+                        Debug.Log("Error: invalid elevator index");
+                        break;
+                }
                 audioSource.PlayOneShot(elevatorDing, 0.25f);
                 triggered = true;
                 //goBack();

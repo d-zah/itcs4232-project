@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Player Position
   m_EditorClassIdentifier: 
   initialValue: {x: 0, y: -3}
-  defaultValue: {x: 0, y: -3}
+  savedValue: {x: 0, y: -3}
+  elevatorProgress: 0
+  savedElevatorProgress: 0

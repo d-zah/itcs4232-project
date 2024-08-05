@@ -107,4 +107,16 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("falling", true);
     }
 
+    public int getPlayerLevel(){
+        return SceneManager.GetActiveScene().buildIndex;
+    }
+
+    public int getElevatorProgress(){
+        return startPosition.elevatorProgress;
+    }
+
+    public void SavePlayer(){
+        SaveSystem.SavePlayer(this);
+    }
+
 }
