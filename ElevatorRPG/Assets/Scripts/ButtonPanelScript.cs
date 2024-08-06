@@ -16,6 +16,7 @@ public class ButtonPanelScript : MonoBehaviour
     public Conversation convo;
     public List<AudioClip> audioClickSounds = new List<AudioClip>();
     public AudioClip elevatorDing;
+    public int elevatorNumber;
 
     private int totalSelections;
     private int selectionCode;
@@ -33,6 +34,10 @@ public class ButtonPanelScript : MonoBehaviour
         selectionCode = 0;
         triggered = false;
         timerActive = false;
+
+        if(playerStorage.elevatorProgress >= elevatorNumber){
+            triggered = true;
+        }
     }
 
     void Update(){

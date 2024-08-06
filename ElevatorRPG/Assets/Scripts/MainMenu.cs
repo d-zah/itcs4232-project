@@ -42,7 +42,23 @@ public class MainMenu : MonoBehaviour
         } else {
             SceneManager.LoadScene("Floor1");
         }
-        
+    }
 
+    public void ResetPlayer()
+    {
+        string path = Application.persistentDataPath + "/player.data";
+        if(File.Exists(path)){
+            PlayerData data = SaveSystem.LoadPlayer();
+
+            Vector2 insertPosition = Vector2.zero;
+            insertPosition.y = -3;
+            playerStorage.initialValue = insertPosition;
+
+            playerStorage.elevatorProgress = 0;
+
+            SceneManager.LoadScene("Floor1");
+        } else {
+            SceneManager.LoadScene("Floor1");
+        }
     }
 }

@@ -16876,6 +16876,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 99d0fb8d273150d4ca66cf175df6325e, type: 3}
   - {fileID: 8300000, guid: f7fe3fa8fe5337349a3a436a72f223ec, type: 3}
   elevatorDing: {fileID: 8300000, guid: b0bb98e696b4ecb44b504c81c3dc80f1, type: 3}
+  elevatorNumber: 5
 --- !u!114 &1566507115
 MonoBehaviour:
   m_ObjectHideFlags: 0
