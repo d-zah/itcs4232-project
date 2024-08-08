@@ -303,8 +303,6 @@ MonoBehaviour:
   playerController: {fileID: 9096167327739118066}
   buttonMenu: {fileID: 2013329253}
   pressEPrompt: {fileID: 218273148}
-  elevatorNumber: 2
-  playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
 --- !u!61 &66097124
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12555,8 +12553,6 @@ MonoBehaviour:
   playerController: {fileID: 9096167327739118066}
   buttonMenu: {fileID: 1653544721}
   pressEPrompt: {fileID: 866513970}
-  elevatorNumber: 1
-  playerStorage: {fileID: 11400000, guid: 8cf1b9712888ddc4b94f90d489557859, type: 2}
 --- !u!61 &1947150665
 BoxCollider2D:
   m_ObjectHideFlags: 0

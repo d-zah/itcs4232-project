@@ -36,6 +36,7 @@ public class ButtonPanelScript : MonoBehaviour
         timerActive = false;
 
         if(playerStorage.elevatorProgress >= elevatorNumber){
+            audioSource.PlayOneShot(elevatorDing, 0.25f);
             triggered = true;
         }
     }
@@ -118,6 +119,8 @@ public class ButtonPanelScript : MonoBehaviour
     }
 
     public void goBack(){
+        if(triggered == true) return;
+
         foreach (Selectable selectableUI in selectablesArray) {
             //make all buttons selectable again
             selectableUI.interactable = true;
