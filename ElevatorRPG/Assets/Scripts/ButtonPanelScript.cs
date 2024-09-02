@@ -38,6 +38,7 @@ public class ButtonPanelScript : MonoBehaviour
         if(playerStorage.elevatorProgress >= elevatorNumber){
             audioSource.PlayOneShot(elevatorDing, 0.25f);
             triggered = true;
+            GetComponent<Canvas>().enabled = false;
         }
     }
 
