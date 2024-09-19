@@ -2763,8 +2763,8 @@
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 32986,
-      "PayloadLength": 24,
-      "PayloadDebugContentSnippet": "Joshua Murph\nRement Inc.",
+      "PayloadLength": 20,
+      "PayloadDebugContentSnippet": "Joshua M\nRement Inc.",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"

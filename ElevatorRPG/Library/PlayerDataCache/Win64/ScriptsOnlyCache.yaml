@@ -13,6 +13,7 @@ ScriptsOnlyBuild:
     - Laser
     - Laser_facingup
     - MainMenu
+    - PauseMenu
     - PlayerController
     - SceneTransition
     - SettingsMenu
@@ -21,6 +22,7 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
+    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
@@ -115,9 +117,21 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: ResetPlayer
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -131,8 +145,185 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonPanelScript
     methodName: goBack
   - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: resume
+  - assembly: Assembly-CSharp
     fullTypeName: DialogueManager
     methodName: ReadNext
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: goBack
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: home
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
@@ -203,11 +394,8 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonPanelScript
     methodName: addSelection
   - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
+    fullTypeName: PauseMenu
+    methodName: home
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
@@ -239,215 +427,8 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonPanelScript
     methodName: addSelection
   - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: goBack
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: DialogueManager
-    methodName: ReadNext
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
+    fullTypeName: PauseMenu
+    methodName: resume
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: goBack
@@ -503,200 +484,8 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonPanelScript
     methodName: addSelection
   - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: goBack
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: goBack
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: goBack
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
+    fullTypeName: PauseMenu
+    methodName: home
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
@@ -749,6 +538,15 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonPanelScript
     methodName: addSelection
   - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: resume
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
   - assembly: Assembly-CSharp
@@ -760,6 +558,45 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: goBack
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
@@ -859,6 +696,81 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: goBack
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: resume
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: goBack
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
@@ -881,35 +793,8 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonPanelScript
     methodName: addSelection
   - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: goBack
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: goBack
+    fullTypeName: PauseMenu
+    methodName: home
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
@@ -934,6 +819,63 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: home
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
@@ -999,6 +941,27 @@ ScriptsOnlyBuild:
     methodName: addSelection
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
+    methodName: goBack
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: goBack
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: resume
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
     methodName: disableButton
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
@@ -1033,6 +996,93 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: DialogueManager
+    methodName: ReadNext
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: resume
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: home
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
@@ -1157,6 +1207,12 @@ ScriptsOnlyBuild:
     fullTypeName: DialogueManager
     methodName: ReadNext
   - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: home
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: resume
+  - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
   - assembly: Assembly-CSharp
@@ -1217,11 +1273,8 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonPanelScript
     methodName: addSelection
   - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
+    fullTypeName: PauseMenu
+    methodName: resume
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
@@ -1270,6 +1323,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: home
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
@@ -1286,71 +1348,8 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonPanelScript
     methodName: goBack
   - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: DialogueManager
-    methodName: ReadNext
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: goBack
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
+    fullTypeName: PauseMenu
+    methodName: resume
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
@@ -1436,6 +1435,27 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonPanelScript
     methodName: addSelection
   - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: home
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: DialogueManager
+    methodName: ReadNext
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: goBack
+  - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
   - assembly: Assembly-CSharp
@@ -1447,6 +1467,60 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: resume
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: home
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
@@ -1526,17 +1600,11 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonPanelScript
     methodName: addSelection
   - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
+    fullTypeName: PauseMenu
+    methodName: home
   - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: disableButton
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonPanelScript
-    methodName: addSelection
+    fullTypeName: PauseMenu
+    methodName: resume
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
@@ -1562,11 +1630,29 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonPanelScript
     methodName: addSelection
   - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: resume
+  - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: disableButton
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonPanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: home
   - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
@@ -1703,6 +1789,9 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonPanelScript
     methodName: goBack
   - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: home
+  - assembly: Assembly-CSharp
     fullTypeName: ButtonPanelScript
     methodName: disableButton
   - assembly: Assembly-CSharp
@@ -1787,14 +1876,23 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonPanelScript
     methodName: addSelection
   - assembly: Assembly-CSharp
-    fullTypeName: ButtonInsidePanelScript
-    methodName: addSelection
+    fullTypeName: PauseMenu
+    methodName: resume
   - assembly: Assembly-CSharp
     fullTypeName: ButtonInsidePanelScript
     methodName: addSelection
   - assembly: Assembly-CSharp
     fullTypeName: ButtonInsidePanelScript
     methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: home
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonInsidePanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: resume
   - assembly: Assembly-CSharp
     fullTypeName: ButtonInsidePanelScript
     methodName: goBack
@@ -1802,20 +1900,8 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonInsidePanelScript
     methodName: addSelection
   - assembly: Assembly-CSharp
-    fullTypeName: ButtonInsidePanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonInsidePanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonInsidePanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonInsidePanelScript
-    methodName: goBack
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonInsidePanelScript
-    methodName: addSelection
+    fullTypeName: PauseMenu
+    methodName: home
   - assembly: Assembly-CSharp
     fullTypeName: ButtonInsidePanelScript
     methodName: addSelection
@@ -1829,11 +1915,56 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonInsidePanelScript
     methodName: goBack
   - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: resume
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonInsidePanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: home
+  - assembly: Assembly-CSharp
     fullTypeName: ButtonInsidePanelScript
     methodName: addSelection
   - assembly: Assembly-CSharp
     fullTypeName: ButtonInsidePanelScript
     methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonInsidePanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: resume
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonInsidePanelScript
+    methodName: goBack
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonInsidePanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonInsidePanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: home
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonInsidePanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonInsidePanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonInsidePanelScript
+    methodName: addSelection
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: resume
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonInsidePanelScript
+    methodName: goBack
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: resume
   - assembly: Assembly-CSharp
     fullTypeName: ButtonInsidePanelScript
     methodName: addSelection
@@ -1847,23 +1978,20 @@ ScriptsOnlyBuild:
     fullTypeName: ButtonInsidePanelScript
     methodName: goBack
   - assembly: Assembly-CSharp
-    fullTypeName: ButtonInsidePanelScript
-    methodName: addSelection
+    fullTypeName: PauseMenu
+    methodName: home
   - assembly: Assembly-CSharp
     fullTypeName: ButtonInsidePanelScript
     methodName: addSelection
   - assembly: Assembly-CSharp
-    fullTypeName: ButtonInsidePanelScript
-    methodName: addSelection
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonInsidePanelScript
-    methodName: goBack
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonInsidePanelScript
-    methodName: addSelection
+    fullTypeName: PauseMenu
+    methodName: resume
   - assembly: Assembly-CSharp
     fullTypeName: DialogueManager
     methodName: ReadNext
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: home
   sceneClasses:
     Assets/Scenes/ElevatorA.unity:
     - Class: 1
@@ -1905,23 +2033,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 2420}
+      Script: {instanceID: 2422}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 6906}
+    - Class: 114
+      Script: {instanceID: 7310}
+    - Class: 114
+      Script: {instanceID: 7680}
+    - Class: 114
+      Script: {instanceID: 8820}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1994,23 +2128,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 2420}
+      Script: {instanceID: 2422}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 6906}
+    - Class: 114
+      Script: {instanceID: 7310}
+    - Class: 114
+      Script: {instanceID: 7680}
+    - Class: 114
+      Script: {instanceID: 8820}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -2083,23 +2223,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 2420}
+      Script: {instanceID: 2422}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 6906}
+    - Class: 114
+      Script: {instanceID: 7310}
+    - Class: 114
+      Script: {instanceID: 7680}
+    - Class: 114
+      Script: {instanceID: 8820}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -2172,23 +2318,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 2420}
+      Script: {instanceID: 2422}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 6906}
+    - Class: 114
+      Script: {instanceID: 7310}
+    - Class: 114
+      Script: {instanceID: 7680}
+    - Class: 114
+      Script: {instanceID: 8820}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -2261,23 +2413,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 2420}
+      Script: {instanceID: 2422}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 6906}
+    - Class: 114
+      Script: {instanceID: 7310}
+    - Class: 114
+      Script: {instanceID: 7680}
+    - Class: 114
+      Script: {instanceID: 8820}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -2354,33 +2512,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 5412}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7070}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 7074}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 7680}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 8820}
+    - Class: 114
+      Script: {instanceID: 9604}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -2455,35 +2615,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 5076}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5412}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7070}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 7074}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 7680}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 8820}
+    - Class: 114
+      Script: {instanceID: 9604}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -2560,39 +2722,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3290}
+      Script: {instanceID: 3292}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 5076}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5412}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7070}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7148}
+      Script: {instanceID: 7074}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 7152}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 7680}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 8820}
+    - Class: 114
+      Script: {instanceID: 9604}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -2667,35 +2831,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 5076}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5412}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7070}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 7074}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 7680}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 8820}
+    - Class: 114
+      Script: {instanceID: 9604}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -2772,43 +2938,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3290}
+      Script: {instanceID: 3292}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 3712}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3716}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 5076}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5412}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7070}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7148}
+      Script: {instanceID: 7074}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 7152}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 8624}
+      Script: {instanceID: 7680}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 8628}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 8820}
+    - Class: 114
+      Script: {instanceID: 9604}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -2883,29 +3051,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 5412}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 7680}
+    - Class: 114
+      Script: {instanceID: 9604}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -2980,35 +3150,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 5076}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5412}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7070}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 7074}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 7680}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 8820}
+    - Class: 114
+      Script: {instanceID: 9604}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -3083,35 +3255,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 5076}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5412}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7070}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 7074}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 7680}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 8820}
+    - Class: 114
+      Script: {instanceID: 9604}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -3188,35 +3362,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 5076}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5412}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7070}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 7074}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 7680}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 8820}
+    - Class: 114
+      Script: {instanceID: 9604}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -3291,33 +3467,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 5076}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5412}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7070}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 7074}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 7680}
+    - Class: 114
+      Script: {instanceID: 8820}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -3392,33 +3570,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 5412}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7070}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 7074}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 7680}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 8820}
+    - Class: 114
+      Script: {instanceID: 9604}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -3493,35 +3673,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 5076}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5412}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7070}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 7074}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 7680}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 8820}
+    - Class: 114
+      Script: {instanceID: 9604}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -3596,35 +3778,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 5076}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5412}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7070}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 7074}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 7680}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 8820}
+    - Class: 114
+      Script: {instanceID: 9604}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -3701,39 +3885,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3290}
+      Script: {instanceID: 3292}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 4132}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 5076}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5412}
+      Script: {instanceID: 5080}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 6800}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7070}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7148}
+      Script: {instanceID: 7074}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 7152}
     - Class: 114
-      Script: {instanceID: 7676}
+      Script: {instanceID: 7310}
     - Class: 114
-      Script: {instanceID: 8816}
+      Script: {instanceID: 7680}
     - Class: 114
-      Script: {instanceID: 9598}
+      Script: {instanceID: 8820}
+    - Class: 114
+      Script: {instanceID: 9604}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -3800,27 +3986,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2340}
     - Class: 114
-      Script: {instanceID: 2866}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3466}
+      Script: {instanceID: 3470}
     - Class: 114
-      Script: {instanceID: 4750}
+      Script: {instanceID: 4754}
     - Class: 114
-      Script: {instanceID: 5068}
+      Script: {instanceID: 5072}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6018}
+      Script: {instanceID: 6022}
     - Class: 114
-      Script: {instanceID: 6124}
+      Script: {instanceID: 6128}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7306}
+      Script: {instanceID: 7310}
+    - Class: 114
+      Script: {instanceID: 7680}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3875,13 +4063,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 5982}
+      Script: {instanceID: 5986}
     - Class: 114
-      Script: {instanceID: 6124}
+      Script: {instanceID: 6128}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6906}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -4175,6 +4363,12 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 9a39e376f21c69c4d66d8e0f290d7b4f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PauseMenu
+  - hash:
+      serializedVersion: 2
       Hash: a4d905db69ca7f45f45458ae380fb66f
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -4289,7 +4483,7 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: b94cb39bb8f38e85946acaf59dc46567
+      Hash: caed9373f2ea81dc861a388ccea1cd85
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerController
@@ -4565,7 +4759,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: f455a7f93828094d5c385f21a1b3697f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MainMenu
@@ -4643,7 +4837,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 6c499d0d30e5adcf791137627939802d
+      Hash: 7b941d150e0b638670895a3cd55ec72b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ButtonPanelScript
@@ -4715,7 +4909,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 658c45e1ca45c37a1ba7aebfb950acad
+      Hash: aa544c6b90524daba5324d8509761464
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: VectorValue
@@ -4889,7 +5083,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: ef547accd12cf9a646013f306867aeda
+      Hash: 38442365c7c2ebba60bda1c6eb9b4564
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ButtonActivation
